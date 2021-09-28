@@ -1,0 +1,15 @@
+body {
+    background-color: #5F5884
+}
+
+h1, h2, p {
+    color: #C0BBD9;
+}
+
+button {
+    background-color: #C0BBD9 ;
+    color: #5F5884;
+    border-radius: 50%;
+
+}
+

@@ -1,10 +1,26 @@
 body {
-    background-color: #5F5884
+    background-color: #fff;
+}
+
+header {
+    background-color: #454052;
+    position: fixed;
+    right : 0;
+    top: 10px;
+    width: 100%;
+    height: 7rem;
+    margin-top: -2.5em;
+}
+
+.menu li {
+    display: inline;
+    vertical-align: middle;
 }
 
 h1, h2, p {
-    color: #C0BBD9;
+    color: #000000;
 }
+
 
 button {
     background-color: #C0BBD9 ;
@@ -13,3 +29,54 @@ button {
 
 }
 
+.head-division, .tutorial, .tutorial-summary, .tutorial-summary-button {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.head-image {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.head-division {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.tutorial-summary {
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.tutorial-card {
+    display : flex;
+    flex-flow: row;
+    width: 45%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: solid 2px #C0BBD9;
+    gap: 1rem;
+    
+}
+
+.tutorial-card img {
+    max-width: 100%;
+}
+
+.tutorial-card button {
+
+}
+
+
+
+.tutorial-summary-button {
+   
+}
+
+footer {
+    background-color: #454052;
+}

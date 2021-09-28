@@ -13,3 +13,13 @@ button {
 
 }
 
+.galerytitle {
+    font-family : 'Gemunu Libre', sans-serif;
+    font-size: 6em;
+}
+
+.galery {
+    height : 30em ;
+    width : 30em ;
+    display : flex;
+}

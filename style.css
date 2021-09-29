@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: whitesmoke;
 }
 
 header {
@@ -23,21 +23,32 @@ h1, h2, p {
 
 
 button {
-    background-color: #C0BBD9 ;
-    color: #5F5884;
-    border-radius: 50%;
-
+    display: inline-block;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    width: 125px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
 }
 
-.head-division, .tutorial, .tutorial-summary, .tutorial-summary-button {
-    margin-left: 10rem;
-    margin-right: 10rem;
+button:hover {
+    background-color: whitesmoke;
+    color: black;
 }
 
-.head-image {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+
+section {
+    width: 80%;
+    margin: auto;
 }
 
 .head-division {
@@ -49,34 +60,50 @@ button {
     display : flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 5rem;
+    gap: 3rem;
+    margin-bottom: 5rem;
 }
 
 .tutorial-card {
     display : flex;
     flex-flow: row;
-    width: 45%;
+    width: 46%;
     justify-content: flex-start;
     align-items: flex-start;
-    border: solid 2px #C0BBD9;
+    background-color: rgb(227, 233, 227);
     gap: 1rem;
     
+}
+.tutorial-card-first-part {
+    min-width: 40%;
+    height: 100%;
+}
+
+.tutorial-card-second-part {
+    display: flex;
+    flex-flow: column;
+    max-width: 60%;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
 .tutorial-card img {
     max-width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.tutorial-card button {
-
-}
-
-
-
-.tutorial-summary-button {
-   
+.tutorial-card-second-part button {
+    align-self: flex-end;
 }
 
 footer {
     background-color: #454052;
+}
+
+@media screen and (max-width: 1024px) {
+    .tutorial-card {
+        width: 100%;
+        justify-content:center;
+    }
 }

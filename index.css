@@ -1,0 +1,236 @@
+
+.heroHeader{
+    width: 100%;
+    height: 30rem;
+    font-size: 4rem;
+    background-image: url(/assetsIndex/pexels-arnie-chou-1229042.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroHeader h1{
+    opacity: 0.7;
+}
+
+.circle1 {
+    margin: 10px;
+    width: 200px;
+    background: gray;
+    height: 110px;
+    text-align: center;
+    border-radius: 100px;
+    line-height: 15px;
+    padding-top: 90px;
+    background-color: honeydew;
+    color: green;
+    background-image: url(/assetsIndex/circle.jpg);
+}
+
+.circle2{
+    margin: 10px;
+    width: 200px;
+    background: gray;
+    height: 110px;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 90px;
+    line-height: 15px;
+    background-color: honeydew;
+    color: green;
+    background-image: url(/assetsIndex/circle.jpg);
+}
+
+.circle3{
+    margin: 10px;
+    width: 200px;
+    background: gray;
+    height: 110px;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 90px;
+    line-height: 15px;
+    background-color: honeydew;
+    color: green;
+    background-image: url(/assetsIndex/circle.jpg);
+}
+
+.circle{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.presentation{
+    margin: 10px;
+    width: auto;
+    height: 300px;
+    background: grey;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-image: url(/assetsIndex/pexels-hristo-fidanov-1252869.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentation header h1{
+    font-size: 50px;
+    color: green;
+}
+
+ .presentation-text{
+    font-size: 20px;
+}
+
+.presentation footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.tutoButton{
+    font-size: 25px;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    background: #5F5884;
+}
+
+.galeryButton{
+    font-size: 25px;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    background: #5F5884;
+}
+
+.eventButton{
+    font-size: 25px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    background: #5F5884;
+}
+
+.teachers{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10%;
+}
+
+.teachers h2{
+    margin-bottom: 0%;
+}
+
+.totalCards{
+    display: flex;
+    margin-inline: 5%;
+}
+
+.card {
+    height: 379px;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .border {
+    height: 369px;
+    width: 290px;
+    border-radius: 10px;
+    transition: all 1s;
+    position: relative;
+  }
+  
+  .border:hover {
+      border: 1px solid white;
+  }
+
+
+.card0 {
+  background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') center center no-repeat;
+  background-size: 300px;
+  margin-right: 3%;
+}
+    
+.card0:hover {
+    background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') left center no-repeat;
+    background-size: 400px;
+}
+
+.card1 {
+  background: url('/assetsIndex/pexels-brett-sayles-1437218.jpg') center center no-repeat;
+  background-size: 300px;
+  margin-right: 3%;
+}
+
+.card1:hover {
+    background: url('/assetsIndex/pexels-brett-sayles-1437218.jpg') left center no-repeat;
+    background-size: 400px;
+}
+
+.card2 {
+  background: url('/assetsIndex/pexels-craig-adderley-3526022.jpg') center center no-repeat;
+  background-size: 300px;
+  margin-right: 3%;
+}
+
+.card2:hover {
+    background: url('/assetsIndex/pexels-craig-adderley-3526022.jpg') left center no-repeat;
+    background-size: 400px;
+}
+
+.card3 {
+    background: url('/assetsIndex/pexels-otto-rascon-9482199.jpg') center center no-repeat;
+    background-size: 300px;
+    margin-right: 3%;
+  }
+  
+  .card3:hover {
+      background: url('/assetsIndex/pexels-otto-rascon-9482199.jpg') left center no-repeat;
+      background-size: 400px;
+  }
+
+  .card4 {
+    background: url('/assetsIndex/Poggle-the-Lesser-Star-Wars-540x360.jpg') center center no-repeat;
+    background-size: 300px;
+    margin-right: 3%;
+  }
+  
+  .card4:hover {
+      background: url('/assetsIndex/Poggle-the-Lesser-Star-Wars-540x360.jpg') left center no-repeat;
+      background-size: 400px;
+  }
+
+.card h2 {
+    font-family: Arial, sans-serif;
+    color: green;
+    margin: 20px;
+    opacity: 0;
+    transition: all 1s;
+  }
+
+  .card:hover h2 {
+    opacity: 1;
+}
+
+
+
+
+
+

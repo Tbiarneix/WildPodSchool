@@ -1,3 +1,5 @@
+
+
 body {
     background-image: whitesmoke;
     margin: 0px;
@@ -155,10 +157,16 @@ button {
     }      
     
    
+
+
 /* mobile part */
 
 @media screen and (max-width: 600px) {
     
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+}
 
 
 }

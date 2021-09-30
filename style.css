@@ -1,15 +1,178 @@
 body {
     background-color: #5F5884
+    
+    
 }
 
 h1, h2, p {
     color: #C0BBD9;
 }
 
-button {
-    background-color: #C0BBD9 ;
-    color: #5F5884;
-    border-radius: 50%;
 
+footer{
+    height: 15px;
+    width: 100%;
 }
 
+/* page d'accueil */
+
+.first{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.first h1{
+    z-index: 1;
+    font-size: 100px;
+    opacity: 0.3;
+    color: black;
+    
+}
+
+.firstPicture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.circle1 {
+    margin: 10px;
+    width: 200px;
+    background: gray;
+    height: 110px;
+    text-align: center;
+    border-radius: 100px;
+    line-height: 15px;
+    padding-top: 90px;
+}
+
+.circle2{
+    margin: 10px;
+    width: 200px;
+    background: gray;
+    height: 110px;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 90px;
+    line-height: 15px;
+}
+
+.circle3{
+    margin: 10px;
+    width: 200px;
+    background: gray;
+    height: 110px;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 90px;
+    line-height: 15px;
+}
+
+.circle{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presentation{
+    margin: 10px;
+    width: auto;
+    height: 300px;
+    background: grey;
+    
+}
+
+.presentation header h1{
+    font-size: 50px;
+}
+
+ .presentation-text{
+    font-size: 20px;
+}
+
+
+.presentation footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.tutoButton{
+    font-size: 25px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    background: #5F5884;
+}
+
+.galeryButton{
+    font-size: 25px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    background: #5F5884;
+}
+
+.eventButton{
+    font-size: 25px;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    background: #5F5884;
+}
+
+.teachers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.teacher1{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.teacher2{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.teacher3{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.teacher4{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.teacher5{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

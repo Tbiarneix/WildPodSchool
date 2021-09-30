@@ -26,7 +26,8 @@ section {
 }
 
 .gallery-title {
-    font-family : 'Gemunu Libre', sans-serif;
+    margin-top: 200px;
+    font-family : 'Teko', sans-serif;
     font-size: 6em;
     text-align: center;
     margin-bottom: 0px;
@@ -36,7 +37,8 @@ section {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    margin-top: -40px;
+    margin-top: -60px;
+    margin-bottom: 70px;
 }
 
 

@@ -1,15 +1,135 @@
-body {
-    background-color: #5F5884
+/*GLOBAL CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1, h2, p {
-    color: #C0BBD9;
+/* HEADER SECTION DESKTOP*/
+
+.mainhead {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 1000;
 }
 
-button {
-    background-color: #C0BBD9 ;
-    color: #5F5884;
-    border-radius: 50%;
-
+.active {
+    color : white;
+    text-decoration: none;
 }
 
+nav {
+    background: black;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.logo {
+    flex: 1 1 40rem;
+}
+
+.active::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: green;
+    transition: width 0.3s;
+  }
+  
+  .active:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+
+  /*CONTACT SECTION*/
+
+  #h1contact {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    margin-top: 10%;
+    text-align: center;
+    color: green;
+}
+
+.sabre {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.contactForm {
+    background: black;
+    width: 50%;
+    padding: 2% 2% 2% 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+.prenom-nom {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+#prenom {
+    margin-right: 0.5%;
+}
+
+#nom {
+    margin-left: 0.5%;
+}
+
+.email-message {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#email {
+    padding: 15px 5px 15px 5px;
+}
+
+.message {
+    margin-top: 30px;
+    padding: 40px 5px 40px 5px;
+}
+
+.bouton {
+font-size: 20px;
+font-family: 'Teko', sans-serif;
+color: white;
+background: green;
+padding: 1.5% 3.5% 1.5% 3.5%;
+margin-left: 80%;
+margin-top: 5%;
+}
+
+textarea,
+input:not([type="submit"]) { 
+    width: 100%;
+    padding: 10px;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 6px;
+}

@@ -56,7 +56,6 @@ section {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
-    cursor: pointer;
   }
   
 
@@ -66,40 +65,78 @@ section {
     object-fit: cover;
     border-radius: 5px;
     cursor: pointer;
-    transition: 10s;
+    transition: 20s;
   
   }
 
- .gallery-1 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 9;
-        margin: 10px;
-        overflow: hidden;
-        
+.title {
+   color: whitesmoke;
+   font-weight: bold;
+   font-size: 30px;
+   text-shadow: 5px, 5px, black;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+}
+
+
+.gallery-14 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 13;
+    grid-row-end: 19;
+    margin: 10px;
+    cursor: pointer;
+}   
+
+
+
+
+.gallery-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
     }      
 
-    .gallery-1:hover .image {
-        opacity: 0.7;
-  transform: scale(2);    
-      }
+            .gallery-1:hover .image {
+                opacity: 0.7;
+                transform: scale(2);    
+            }
+
+            .gallery-1:hover .title {
+                display: block;
+            
+            }
     
-    .gallery-2 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 6;
-        grid-row-end: 9;
-        margin: 10px;
-        overflow: hidden;
-    
+
+
+.gallery-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
     }      
 
-    .gallery-2:hover .image {
-        opacity: 0.7;
-  transform: scale(2); 
-    }
-    
+            .gallery-2:hover .image {
+                opacity: 0.7;
+                transform: scale(2); 
+            }
+   
+            .gallery-2:hover .title {
+                display: block;
+            }
+
     .gallery-3 {
         grid-column-start: 2;
         grid-column-end: 5;
@@ -107,6 +144,8 @@ section {
         grid-row-end: 6;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }      
 
     .gallery-3:hover .image {
@@ -114,6 +153,10 @@ section {
   transform: scale(2); 
     }
     
+    .gallery-3:hover .title {
+        display: block;
+    }
+
     .gallery-4 {
         grid-column-start: 3;
         grid-column-end: 5;
@@ -121,11 +164,17 @@ section {
         grid-row-end: 13;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }    
     
     .gallery-4:hover .image {
         opacity: 0.7;
   transform: scale(2); 
+    }
+
+    .gallery-4:hover .title {
+        display: block;
     }
 
     .gallery-5 {
@@ -135,11 +184,17 @@ section {
         grid-row-end: 39;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }
    
     .gallery-5:hover .image {
         opacity: 0.7;
   transform: scale(2); 
+    }
+
+    .gallery-5:hover .title {
+        display: block;
     }
     
     .gallery-6 {
@@ -149,11 +204,17 @@ section {
         grid-row-end: 13;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }      
 
     .gallery-6:hover .image {
         opacity: 0.7;
   transform: scale(2); 
+    }
+
+    .gallery-6:hover .title {
+        display: block;
     }
 
     .gallery-7 {
@@ -163,11 +224,17 @@ section {
         grid-row-end: 23;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }      
 
     .gallery-7:hover .image {
         opacity: 0.7;
   transform: scale(2); 
+    }
+
+    .gallery-7:hover .title {
+        display: block;
     }
 
     .gallery-8 {
@@ -177,11 +244,17 @@ section {
         grid-row-end: 23;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }      
 
     .gallery-8:hover .image {
         opacity: 0.7;
   transform: scale(2); 
+    }
+
+    .gallery-8:hover .title {
+        display: block;
     }
 
     .gallery-12 {
@@ -191,11 +264,17 @@ section {
         grid-row-end: 23;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }      
 
     .gallery-12:hover .image {
         opacity: 0.7;
   transform: scale(2); 
+    }
+
+    .gallery-12:hover .title {
+        display: block;
     }
 
     .gallery-9 {
@@ -205,11 +284,17 @@ section {
         grid-row-end: 29;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }      
 
     .gallery-9:hover .image {
         opacity: 0.7;
   transform: scale(2); 
+    }
+
+    .gallery-9:hover .title {
+        display: block;
     }
 
     .gallery-10 {
@@ -219,11 +304,17 @@ section {
         grid-row-end: 28;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }      
 
     .gallery-10:hover .image {
         opacity: 0.7;
   transform: scale(2); 
+    }
+
+    .gallery-10:hover .title {
+        display: block;
     }
 
     .gallery-11 {
@@ -233,11 +324,17 @@ section {
         grid-row-end: 34;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }      
 
     .gallery-11:hover .image {
         opacity: 0.7;
   transform: scale(2); 
+    }
+
+    .gallery-11:hover .title {
+        display: block;
     }
 
     .gallery-13 {
@@ -247,6 +344,8 @@ section {
         grid-row-end: 34;
         margin: 10px;
         overflow: hidden;
+        position: relative;
+        text-align: center;
     }      
     
     .gallery-13:hover .image {
@@ -254,14 +353,11 @@ section {
   transform: scale(2); 
     }
 
-    .gallery-14 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 13;
-        grid-row-end: 19;
-        margin: 10px;
-    }   
-    
+    .gallery-13:hover .title {
+        display: block;
+    }
+
+   
     
 
 /* mobile part */

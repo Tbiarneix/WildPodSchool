@@ -1,92 +1,151 @@
+/* HEADER SECTION DESKTOP*/
 body {
-    background-color: #5F5884
+    background: whitesmoke;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
-h1, h2, p {
-    color: #C0BBD9;
+h1 {
+    font-family: 'Teko', sans-serif;
+    color: #fff;
 }
 
-button {
-    background-color: #C0BBD9 ;
-    color: #5F5884;
-    border-radius: 50%;
-
+h2 {
+  font-family: 'Teko', sans-serif;
 }
 
-.galerytitle {
-    font-family : 'Gemunu Libre', sans-serif;
-    font-size: 6em;
-    text-align: center;
-
+h2, p {
+    color: #000000;
 }
 
-
-
-
-.gallery-container{
-
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows : repeat(34, 5vw);
-    grid-gap: 0px;
-
-}
-
-  .image:hover {opacity: 0.7;}
-  
-
-  .image {
+.mainhead {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: fixed;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.active {
+    color : white;
+    text-decoration: none;
+}
+
+nav {
+    background: black;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.logo {
+    flex: 1 1 40rem;
+}
+
+.active::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: green;
+    transition: width 0.3s;
+  }
   
+  .active:hover::after {
+    width: 100%;
+    transition: width 0.3s;
   }
 
- .gallery-1 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 9;
-        margin: 10px;
-    }      
-    
-    .gallery-2 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 6;
-        grid-row-end: 9;
-        margin: 10px;
-    }      
-    
-    .gallery-3 {
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 6;
-        margin: 10px;
-    }      
-    
-    .gallery-4 {
-        grid-column-start: 3;
-        grid-column-end: 5;
-        grid-row-start: 6;
-        grid-row-end: 13;
-        margin: 10px;
-    }    
-    
-    .gallery-5 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 13;
-        grid-row-end: 19;
-        margin: 10px;
+ /*FOOTER SECTION*/
+
+ footer {
+     background:black;
+     margin-top: 5%;
+     width: 100%;
+    }
+     
+ .copyright {
+     text-align: center;
+    font-weight: bold;
+    color: green;
+    font-family: 'Teko', sans-serif;
+ }
+
+ .arborescence ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    font-size: 16px;
+    padding: auto;
+ }
+
+ .arborescence ul li {
+     list-style: none;
+ }
+
+ .arborescence ul {
+     padding-top: 10%;
+ }
+
+ .imagefooter {
+     display: flex;
+    align-items:center;
+ }
+
+ .rs {
+    color: green;
+    font-weight: bold; 
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ button {
+    display: inline-block;
+    background-color: green;
+    border-radius: 20px;
+    border: 2px #CCCCCC;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    width: 125px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Teko', sans-serif;
 }
 
-.galery {
-    height : 30em ;
-    width : 30em ;
-    display : flex;
+button:hover {
+    background-color: rgb(0, 161, 0);
+    color: black;
 }

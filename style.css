@@ -1,12 +1,11 @@
-/*GLOBAL CSS*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* HEADER SECTION DESKTOP*/
-
+body {
+    background: whitesmoke;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
 .mainhead {
     color: white;
     font-family: 'Teko', sans-serif;
@@ -29,7 +28,7 @@ nav {
     min-height: 8vh;
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 0.2rem;
 }
 
 nav ul {
@@ -58,78 +57,81 @@ nav ul {
     transition: width 0.3s;
   }
 
-  /*CONTACT SECTION*/
+ /*FOOTER SECTION*/
 
-  #h1contact {
-    font-family: 'Teko', sans-serif;
-    font-size: 50px;
-    margin-top: 10%;
-    text-align: center;
+ footer {
+     background:black;
+     margin-top: 5%;
+     width: 100%;
+    }
+     
+ .copyright {
+     text-align: center;
+    font-weight: bold;
     color: green;
-}
+    font-family: 'Teko', sans-serif;
+ }
 
-.sabre {
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-.contactForm {
-    background: black;
-    width: 50%;
-    padding: 2% 2% 2% 2%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
+ .arborescence ul li a {
+    text-decoration: none;
     color: white;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    font-size: 16px;
+    padding: auto;
+ }
+
+ .arborescence ul li {
+     list-style: none;
+ }
+
+ .arborescence ul {
+     padding-top: 10%;
+ }
+
+ .imagefooter {
+     display: flex;
+    align-items:center;
+ }
+
+ .rs {
+    color: green;
+    font-weight: bold; 
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ button {
+    display: inline-block;
+    background-color: green;
+    border-radius: 20px;
+    border: 2px #CCCCCC;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    width: 125px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
     font-family: 'Teko', sans-serif;
 }
 
-.prenom-nom {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 16px;
-}
-
-#prenom {
-    margin-right: 0.5%;
-}
-
-#nom {
-    margin-left: 0.5%;
-}
-
-.email-message {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#email {
-    padding: 15px 5px 15px 5px;
-}
-
-.message {
-    margin-top: 30px;
-    padding: 40px 5px 40px 5px;
-}
-
-.bouton {
-font-size: 20px;
-font-family: 'Teko', sans-serif;
-color: white;
-background: green;
-padding: 1.5% 3.5% 1.5% 3.5%;
-margin-left: 80%;
-margin-top: 5%;
-}
-
-textarea,
-input:not([type="submit"]) { 
-    width: 100%;
-    padding: 10px;
-    border: 2px solid green;
-    outline: none;
-    border-radius: 6px;
+button:hover {
+    background-color: rgb(0, 161, 0);
+    color: black;
 }

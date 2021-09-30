@@ -1,8 +1,101 @@
 body {
-    background-color: white
+    background: whitesmoke;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
+.mainhead {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+.active {
+    color : white;
+    text-decoration: none;
+}
+nav {
+    background: black;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+}
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.logo {
+    flex: 1 1 40rem;
+}
+.active::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: green;
+    transition: width 0.3s;
+  }
+  .active:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+ /*FOOTER SECTION*/
+ footer {
+     background:black;
+     margin-top: 5%;
+     width: 100%;
+    }
+ .copyright {
+     text-align: center;
+    font-weight: bold;
+    color: green;
+    font-family: 'Teko', sans-serif;
+ }
+ .arborescence ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    font-size: 16px;
+    padding: auto;
+ }
+ .arborescence ul li {
+     list-style: none;
+ }
+ .arborescence ul {
+     padding-top: 10%;
+ }
+ .imagefooter {
+     display: flex;
+    align-items:center;
+ }
+ .rs {
+    color: green;
+    font-weight: bold; 
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+ }
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+ }
 
-h1, h2, h3 {
+h2, h3 {
     color: black;
     font-family:'Teko', sans-serif;
 }
@@ -32,9 +125,10 @@ button:hover {
 
 
 h1 {
+    color:blanchedalmond;
+    font-family:'Teko', sans-serif;
     font-size: xx-large;
     display: flex;
-    margin:0;
 }
 
 h3 {
@@ -71,12 +165,13 @@ p {
 
 .eventpresentationsection {
     text-align: justify;
+    margin: 3rem;
 }
 
 .eventscards {
     text-align: justify;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 8rem;
+    margin-left: 8rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

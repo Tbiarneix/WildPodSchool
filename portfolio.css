@@ -1,0 +1,378 @@
+body {
+    background-image: whitesmoke;
+    margin: 0px;
+}
+
+h1, h2, p {
+    color: #C0BBD9;
+}
+
+button {
+    background-color: #C0BBD9 ;
+    color: #5F5884;
+    border-radius: 50%;
+
+}
+
+
+
+/* portfolio css part */
+
+
+
+section {
+    width: 80%;
+    margin: auto;
+}
+
+.gallery-title {
+    font-family : 'Gemunu Libre', sans-serif;
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 0px;
+    }
+    
+.underline {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -40px;
+}
+
+
+.gallery-container{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows : repeat(38, 5vw);
+    grid-gap: 0px;
+    
+
+}
+
+  .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 10s;
+  
+  }
+
+.title {
+   color: whitesmoke;
+   font-weight: bold;
+   font-size: 30px;
+   text-shadow: 5px, 5px, black;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+}
+
+
+.gallery-14 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 13;
+    grid-row-end: 19;
+    margin: 10px;
+    cursor: pointer;
+}   
+
+
+
+
+ .gallery-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 9;
+        margin: 10px;
+        overflow: hidden;
+        
+    }      
+
+    .gallery-1:hover .image {
+        opacity: 0.7;
+  transform: scale(2);    
+      }
+    
+            .gallery-1:hover .title {
+                display: block;
+            
+            }
+    
+
+    
+    .gallery-2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 9;
+        margin: 10px;
+        overflow: hidden;
+    
+    }      
+
+    .gallery-2:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+    
+            .gallery-2:hover .title {
+                display: block;
+            }
+
+    .gallery-3 {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }      
+
+    .gallery-3:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+    
+    .gallery-3:hover .title {
+        display: block;
+    }
+
+    .gallery-4 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 13;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }    
+    
+    .gallery-4:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-4:hover .title {
+        display: block;
+    }
+
+    .gallery-5 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 34;
+        grid-row-end: 39;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+   
+    .gallery-5:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-5:hover .title {
+        display: block;
+    }
+    
+    .gallery-6 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 9;
+        grid-row-end: 13;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }      
+
+    .gallery-6:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-6:hover .title {
+        display: block;
+    }
+
+    .gallery-7 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 19;
+        grid-row-end: 23;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }      
+
+    .gallery-7:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-7:hover .title {
+        display: block;
+    }
+
+    .gallery-8 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 19;
+        grid-row-end: 23;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }      
+
+    .gallery-8:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-8:hover .title {
+        display: block;
+    }
+
+    .gallery-12 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 19;
+        grid-row-end: 23;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }      
+
+    .gallery-12:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-12:hover .title {
+        display: block;
+    }
+
+    .gallery-9 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 23;
+        grid-row-end: 29;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }      
+
+    .gallery-9:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-9:hover .title {
+        display: block;
+    }
+
+    .gallery-10 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 23;
+        grid-row-end: 28;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }      
+
+    .gallery-10:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-10:hover .title {
+        display: block;
+    }
+
+    .gallery-11 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 29;
+        grid-row-end: 34;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }      
+
+    .gallery-11:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-11:hover .title {
+        display: block;
+    }
+
+    .gallery-13 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 28;
+        grid-row-end: 34;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }      
+    
+    .gallery-13:hover .image {
+        opacity: 0.7;
+  transform: scale(2); 
+    }
+
+    .gallery-14 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 13;
+        grid-row-end: 19;
+        margin: 10px;
+    }   
+    
+   
+    
+
+/* mobile part */
+
+@media screen and (max-width: 700px) {
+    
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    width: 100%;
+}
+
+}

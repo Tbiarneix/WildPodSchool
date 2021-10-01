@@ -1,9 +1,9 @@
 
 .heroHeader{
     width: 100%;
-    height: 30rem;
+    height: 100vh;
     font-size: 4rem;
-    background-image: url(/assetsIndex/pexels-arnie-chou-1229042.jpg);
+    background-image: url(/assetsIndex/pexels-aviv-perets-3274903.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;

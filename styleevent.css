@@ -30,18 +30,7 @@ nav ul {
 .logo {
     flex: 1 1 40rem;
 }
-.active::after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 2px;
-    background: green;
-    transition: width 0.3s;
-  }
-  .active:hover::after {
-    width: 100%;
-    transition: width 0.3s;
-  }
+
  /*FOOTER SECTION*/
  footer {
      background:black;

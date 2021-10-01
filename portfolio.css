@@ -1,18 +1,3 @@
-body {
-    background-image: whitesmoke;
-    margin: 0px;
-}
-
-h1, h2, p {
-    color: #C0BBD9;
-}
-
-button {
-    background-color: #C0BBD9;
-    color: #5F5884;
-    border-radius: 50%;
-}
-
 /* portfolio css part */
 
 .top-picture {

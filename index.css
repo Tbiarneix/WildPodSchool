@@ -17,20 +17,17 @@
 .circle1 {
     margin: 10px;
     width: 200px;
-   
     height: 110px;
     text-align: center;
     border-radius: 100px;
     line-height: 15px;
     padding-top: 90px;
-   
     color: white;
     background-color: rgb(2, 2, 2);
-    
+    font-family: "teko",sans-serif;
 }
-.circle1 h2{
-    color: white;
-}
+
+
 
 .circle2{
     margin: 10px;
@@ -40,14 +37,12 @@
     border-radius: 100px;
     padding-top: 90px;
     line-height: 15px;
-   
     color: white;
     background-color: rgb(2, 2, 2);
+    font-family: "teko",sans-serif;
 }
 
-.circle2 h2{
-    color: white;
-}
+
 
 .circle3{
     margin: 10px;
@@ -58,13 +53,12 @@
     border-radius: 100px;
     padding-top: 90px;
     line-height: 15px;
-   
     background-color: rgb(2, 2, 2);
+    color: white;
+    font-family: "teko",sans-serif;
 }
 
-.circle3 h2{
-    color: white;
-}
+
 
 .circle{
     display: flex;

@@ -27,8 +27,6 @@
     font-family: "teko",sans-serif;
 }
 
-
-
 .circle2{
     margin: 10px;
     width: 200px;
@@ -41,8 +39,6 @@
     background-color: rgb(2, 2, 2);
     font-family: "teko",sans-serif;
 }
-
-
 
 .circle3{
     margin: 10px;
@@ -57,8 +53,6 @@
     color: white;
     font-family: "teko",sans-serif;
 }
-
-
 
 .circle{
     display: flex;
@@ -103,7 +97,6 @@
     margin-bottom: 5%;
 }
 
-
 .teachers{
     text-align: center;
     font-size: 2rem;
@@ -145,15 +138,14 @@
       border: 1px solid white;
   }
 
-
 .card0 {
-  background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') center center no-repeat;
+  background: url('/assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg') center center no-repeat;
   background-size: 300px;
   margin-right: 3%;
 }
     
 .card0:hover {
-    background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') left center no-repeat;
+    background: url('/assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg') left center no-repeat;
     background-size: 400px;
 }
 
@@ -169,35 +161,35 @@
 }
 
 .card2 {
-  background: url('/assetsIndex/pexels-craig-adderley-3526022.jpg') center center no-repeat;
+  background: url('/assetsIndex/greedo.jpg') center center no-repeat;
   background-size: 300px;
   margin-right: 3%;
 }
 
 .card2:hover {
-    background: url('/assetsIndex/pexels-craig-adderley-3526022.jpg') left center no-repeat;
+    background: url('/assetsIndex/greedo.jpg') left center no-repeat;
     background-size: 400px;
 }
 
 .card3 {
-    background: url('/assetsIndex/pexels-otto-rascon-9482199.jpg') center center no-repeat;
+    background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') center center no-repeat;
     background-size: 300px;
     margin-right: 3%;
   }
   
   .card3:hover {
-      background: url('/assetsIndex/pexels-otto-rascon-9482199.jpg') left center no-repeat;
+      background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') left center no-repeat;
       background-size: 400px;
   }
 
   .card4 {
-    background: url('/assetsIndex/Poggle-the-Lesser-Star-Wars-540x360.jpg') center center no-repeat;
+    background: url('/assetsIndex//chubi.jpg') center center no-repeat;
     background-size: 300px;
     margin-right: 3%;
   }
   
   .card4:hover {
-      background: url('/assetsIndex/Poggle-the-Lesser-Star-Wars-540x360.jpg') left center no-repeat;
+      background: url('/assetsIndex/chubi.jpg') left center no-repeat;
       background-size: 400px;
   }
 

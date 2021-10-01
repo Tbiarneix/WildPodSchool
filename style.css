@@ -61,9 +61,21 @@ nav ul {
     content: "";
     display: block;
     width: 0;
-    height: 2px;
-    background: green;
+    height: 3px;
+    border: 2px;
+    border-color:rgb(150, 219, 150);
+    background: white;
     transition: width 0.3s;
+    color: #fff;
+    box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(0, 255, 106),
+        0 0 82px rgb(0, 255, 98),
+        0 0 92px rgb(0, 255, 106),
+        0 0 102px rgb(0, 255, 115),
+        0 0 151px rgb(0, 255, 85);
   }
   
   .active:hover::after {

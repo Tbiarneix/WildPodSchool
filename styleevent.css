@@ -123,6 +123,14 @@ button:hover {
     color: black;
 }
 
+
+h1 {
+    color:blanchedalmond;
+    font-family:'Teko', sans-serif;
+    font-size: xx-large;
+    display: flex;
+}
+
 h3 {
     font-size:medium;
 }
@@ -257,43 +265,4 @@ p {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
-
-/*mediaquery*/
-
-@media screen and (max-width: 600px){
-    .eventtitle {
-        height: 17rem;
-    }
-
-    .eventscards {
-        display:flex;
-        flex-direction: column;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        flex-wrap: none;
-        width: 95%;
-        min-width:80%;
-        justify-content: center;
-
-    }
-    .event1, .event2, .event3, .event4, .event5, .event6 {
-        min-width: 70%;
-        max-width: 75%;
-
-    }
-    .eventscards img {
-        height: auto;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width:1150px) {
-    .event1, .event2, .event3, .event4, .event5, .event6 {
-        min-width: 35%;
-        max-width: 40%;
-    }
-    .eventscards {
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;
-    }
 }

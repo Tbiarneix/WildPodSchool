@@ -33,7 +33,6 @@ section {
 
 
 
-
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -56,6 +55,7 @@ section {
     border-radius: 5px;
     cursor: pointer;
     transition: 10s;
+    
 }
 
 .title {

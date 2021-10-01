@@ -1,18 +1,3 @@
-body {
-    background-image: whitesmoke;
-    margin: 0px;
-}
-
-h1, h2, p {
-    color: #C0BBD9;
-}
-
-button {
-    background-color: #C0BBD9;
-    color: #5F5884;
-    border-radius: 50%;
-}
-
 /* portfolio css part */
 
 .top-picture {
@@ -23,7 +8,7 @@ button {
     width: 100%;
     height: 30rem;
     margin-top: 5rem;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/cosmos.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/Dunes.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -45,7 +30,6 @@ section {
     margin-right: auto;
     margin-bottom: auto;
 }
-
 
 
 
@@ -71,6 +55,7 @@ section {
     border-radius: 5px;
     cursor: pointer;
     transition: 10s;
+    
 }
 
 .title {

@@ -1,9 +1,3 @@
-body {
-    background: whitesmoke;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-}
 .mainhead {
     color: white;
     font-family: 'Teko', sans-serif;
@@ -36,18 +30,7 @@ nav ul {
 .logo {
     flex: 1 1 40rem;
 }
-.active::after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 2px;
-    background: green;
-    transition: width 0.3s;
-  }
-  .active:hover::after {
-    width: 100%;
-    transition: width 0.3s;
-  }
+
  /*FOOTER SECTION*/
  footer {
      background:black;
@@ -149,6 +132,7 @@ p {
     background-size: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    
 }
 .eventtitle img {
     max-width: 20%;

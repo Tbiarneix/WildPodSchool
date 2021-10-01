@@ -54,6 +54,18 @@ section {
 }
 
 @media screen and (max-width: 1200px) {
+    .tutorial {
+        margin-top: 8rem;
+    }
+    
+    .tutorial-container {
+        max-width: 100%;
+    }
+
+    .tutorial-container img {
+        max-width: 22rem;
+    }
+    
     hr {
         display: none;
     }
@@ -66,7 +78,7 @@ section {
     }
     .more-tutorials-column {
         margin-top: 3rem;
-        padding-left: 2rem;
+        padding-left: 0rem;
         border-left: none;
     }
     .other-tutorial {

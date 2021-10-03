@@ -21,7 +21,7 @@ h2, h3 {
   font-family: 'Teko', sans-serif;
 }
 
-h2, h3, p {
+h2, h3 {
     color: #000000;
 }
 
@@ -39,6 +39,12 @@ h2 {
 
 h3 {
     font-size: 24px;
+}
+
+p {
+    color:rgb(31, 29, 29);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: medium;
 }
 
 .mainhead {
@@ -87,19 +93,19 @@ nav ul {
     content: "";
     display: block;
     width: 0;
-    height: 2px;
-    background: rgb(150, 219, 150);
+    height: 3px;
+    background: rgb(203, 245, 203);
     transition: width 0.3s;
     color: #fff;
     box-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px rgb(0, 255, 106),
-    0 0 82px rgb(0, 255, 98),
-    0 0 92px rgb(0, 255, 106),
-    0 0 102px rgb(0, 255, 115),
-    0 0 151px rgb(0, 255, 85);
+    0 0 12px rgba(230, 247, 221, 0.938),
+    0 0 15px rgb(118, 243, 56),
+    0 0 34px rgb(180, 241, 172),
+    0 0 42px rgb(50, 243, 131),
+    0 0 82px rgb(100, 236, 152),
+    0 0 92px rgb(148, 240, 186),
+    0 0 142px rgb(166, 228, 194),
+    0 0 151px rgb(221, 253, 232);
   }
   
   .active:hover::after {

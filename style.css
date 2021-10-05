@@ -6,17 +6,45 @@ body {
     margin-bottom: 0;
 }
 
-h1 {
-    font-family: 'Teko', sans-serif;
-    color: #fff;
+a {
+    text-decoration: none;
+    color: white;
+   }
+
+a:hover {
+    color: white;
 }
 
-h2 {
+
+
+h2, h3 {
   font-family: 'Teko', sans-serif;
 }
 
-h2, p {
+h2, h3 {
     color: #000000;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    font-size: 6rem;
+    margin-bottom: -2rem;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    color:rgb(31, 29, 29);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: medium;
 }
 
 .mainhead {
@@ -57,19 +85,47 @@ nav ul {
     flex: 1 1 40rem;
 }
 
+.logo-mobile {
+    visibility: hidden;
+}
+
 .active::after {
     content: "";
     display: block;
     width: 0;
-    height: 2px;
-    background: green;
+    height: 3px;
+    background: rgb(203, 245, 203);
     transition: width 0.3s;
+    color: #fff;
+    box-shadow:
+    0 0 12px rgba(230, 247, 221, 0.938),
+    0 0 15px rgb(118, 243, 56),
+    0 0 34px rgb(180, 241, 172),
+    0 0 42px rgb(50, 243, 131),
+    0 0 82px rgb(100, 236, 152),
+    0 0 92px rgb(148, 240, 186),
+    0 0 142px rgb(166, 228, 194),
+    0 0 151px rgb(221, 253, 232);
   }
   
   .active:hover::after {
     width: 100%;
     transition: width 0.3s;
   }
+
+  /*mediaquery*/
+
+@media screen and (max-width: 480px) {
+    .logo {
+        display: none;
+    }
+
+    .logo-mobile {
+        visibility: visible;
+        
+    }
+    
+}
 
  /*FOOTER SECTION*/
 
@@ -163,3 +219,8 @@ button:hover {
 }
 
 html { scroll-behavior: smooth; }
+/*mediaquery*/
+
+@media screen and (max-width: 480px) {
+    
+}

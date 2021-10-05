@@ -75,7 +75,7 @@ section {
     object-fit: cover;
 }
 
-.tutorial-card-second-part button {
+.tutorial-card-second-part a {
     align-self: flex-end;
 }
 
@@ -120,9 +120,21 @@ html { scroll-behavior: smooth; }
 
 @media screen and (max-width: 768px) {
     .head-image {
-        margin-top: 0rem;
+        margin-top: 5rem;
         height: 17rem;
     }
+
+    .head-image h1 {
+        display: flex;
+        margin-bottom: -3rem;   
+    }
+    
+    .head-image img {
+        max-width: 60%;
+        margin-top: -3rem;
+        margin: 0px;
+    }
+    
 
     .head-division {
         margin-top: 5rem;

@@ -1,91 +1,114 @@
  /*CONTACT SECTION*/
 
-.hero {
-    background-image: url("assets/cosmos.jpg");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+ .hero {
+     background-image: url("assets/cosmos.jpg");
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
  #h1contact {
-    font-family: 'Teko', sans-serif;
-    font-size: 50px;
-    margin-top: 10%;
-    margin-bottom: 0;
-    text-align: center;
-    color: white;
+     font-family: 'Teko', sans-serif;
+     font-size: 50px;
+     margin-top: 10%;
+     margin-bottom: 0;
+     text-align: center;
+     color: white;
+ }
+
+ .sabre {
+     margin-left: 30%;
+     margin-right: 30%;
+ }
+
+ .test {
+     width: 100%;
+     margin: auto;
+     background-color: brown;
+    
+ }
+
+.button1 {
+    background-color: red;
+    width: 30px;
+    height: 30px;
 }
 
-.sabre {
-    margin-left: 30%;
-    margin-right: 30%;
-}
+ .contactForm {
+     background: black;
+     width: 50%;
+     padding: 2% 2% 2% 2%;
+     margin-top: 5%;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 25px;
+     color: white;
+     font-family: 'Teko', sans-serif;
+     
+ }
 
-.contactForm {
-    background: black;
-    width: 50%;
-    padding: 2% 2% 2% 2%;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    color: white;
-    font-family: 'Teko', sans-serif;
-}
+ .contactForm2 {
+     display: none;
+     background: black;
+     width: 50%;
+     padding: 2% 2% 2% 2%;
+     margin-top: 5%;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 25px;
+     color: white;
+     font-family: 'Teko', sans-serif;
+ }
 
-.prenom-nom {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 16px;
-}
+ .test:active .contactForm {
+     display: none;
+ }
 
-#prenom {
-    margin-right: 0.5%;
-}
+ .test:active .contactForm2 {
+     display: block;
+ }
 
-#nom {
-    margin-left: 0.5%;
-}
+ .prenom-nom {
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-size: 16px;
+ }
 
-.email-message {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 30px;
-}
+ #prenom {
+     margin-right: 0.5%;
+ }
 
-#email {
-width: 95%;    
-}
+ #nom {
+     margin-left: 0.5%;
+ }
 
-.message {
-    margin-top: 30px;
-    width: 95%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-   
-}
+ .email-message {
+     font-size: 20px;
+     text-align: center;
+     margin-bottom: 30px;
+ }
 
-textarea,
-input:not([type="submit"]) { 
-    width: 100%;
-    padding: 10px;
-    border: 2px solid green;
-    outline: none;
-    border-radius: 6px;
-}
+ #email {
+     width: 95%;
+ }
 
-.button {
-    background-image: url("assets/fleche2.png");
-    width: 10%;
-    position: fixed;
-  bottom: 170px;
-  right: 0px;
-}
+ .message {
+     margin-top: 30px;
+     width: 95%;
+     padding-top: 15px;
+     padding-bottom: 15px;
+ }
 
-.button img {
-    width: 100%;
-}
+ textarea, input:not([type="submit"]) {
+     width: 100%;
+     padding: 10px;
+     border: 2px solid green;
+     outline: none;
+     border-radius: 6px;
+ }
 
-html { scroll-behavior: smooth; }
-
+ html {
+     scroll-behavior: smooth;
+ }

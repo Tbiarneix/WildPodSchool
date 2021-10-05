@@ -78,6 +78,8 @@ input:not([type="submit"]) {
     border-radius: 6px;
 }
 
+
+
 /*mediaquery*/
 
 @media screen and (max-width: 480px) {

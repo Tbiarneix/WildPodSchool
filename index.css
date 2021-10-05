@@ -237,6 +237,10 @@
   right: 0px;
 }
 
+.button:hover {
+    opacity: 0;
+}
+
 .button img {
     width: 100%;
 }

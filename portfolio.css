@@ -17,10 +17,10 @@ button {
 
 
 .button {
-    background-image: url("assets/fleche.png");
+    background-image: url("assets/fleche2.png");
     width: 10%;
     position: fixed;
-  bottom: 20px;
+  bottom: 170px;
   right: 0px;
 }
 

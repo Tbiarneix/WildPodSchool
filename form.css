@@ -74,3 +74,17 @@ input:not([type="submit"]) {
     outline: none;
     border-radius: 6px;
 }
+
+.button {
+    background-image: url("assets/fleche2.png");
+    width: 10%;
+    position: fixed;
+  bottom: 170px;
+  right: 0px;
+}
+
+.button img {
+    width: 100%;
+}
+
+html { scroll-behavior: smooth; }

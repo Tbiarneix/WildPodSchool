@@ -90,6 +90,20 @@ section {
     margin-bottom: 3rem;
 }
 
+.button {
+    background-image: url("assets/fleche2.png");
+    width: 10%;
+    position: fixed;
+  bottom: 170px;
+  right: 0px;
+}
+
+.button img {
+    width: 100%;
+}
+
+html { scroll-behavior: smooth; }
+
 @media screen and (max-width: 1024px) {
     .tutorial-card {
         width: 100%;
@@ -102,6 +116,8 @@ section {
     }
 }
 
+
+
 @media screen and (max-width: 768px) {
     .head-image {
         margin-top: 0rem;
@@ -112,4 +128,3 @@ section {
         margin-top: 5rem;
     }
     }
-} 

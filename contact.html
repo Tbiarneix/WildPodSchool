@@ -1,129 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="form.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="form.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <header class="mainhead">
-    <nav>
-        <div class="logo">
-            <a href="index.html"><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="50%"/></a>
-          </div>
-          <div class="logo-mobile"><a href="index.html"><img src="assets/Logo WPS mobile version.png" alt="Logo" width="50%" height="50%"/></a></div>
-        <ul>
-        <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
-        <li><a class="active" href="portfolio.html">Galerie</a></li>
-        <li><a class="active" href="event.html">Évènements</a></li>
-        <li><a class="active" href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="50%" /></a>
+    </div>
+    <div class="logo-mobile"><a href="index.html"><img src="assets/Logo WPS mobile version.png" alt="Logo" width="50%"
+          height="50%" /></a></div>
+    <ul class="menu">
+      <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
+      <li><a class="active" href="portfolio.html">Galerie</a></li>
+      <li><a class="active" href="event.html">Évènements</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="hamburger">
+    <div class="bar"></div>
+  </button>
 </header>
+<nav class="menu-mobile">
+  <a class="active" href="tutorialsummary.html">Tutoriels</a>
+  <a class="active" href="portfolio.html">Galerie</a>
+  <a class="active" href="event.html">Évènements</a>
+  <a class="active" href="contact.html">Contact</a>
+</nav>
 
 <!-- Contact Section -->
+
 <body>
   <div class="hero">
     <h1>Nous contacter</h1>
-      <img class="sabre" src="assets/Sabre laser.png" alt="Sabre laser"/>
+    <img class="sabre" src="assets/Sabre laser.png" alt="Sabre laser" />
   </div>
-  
-  <section class="contact">
+
+    <form class="contactContainer">
+
+      <section class="contactChildren">
+
+        <label for="prénom">Prénom :</label>
+        <input type="text" id="prénom" name="prénom" placeholder="Entrez votre prénom" required />
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required />
+
+        <label for="email">Email :</label>
+        <input id="email" type="email" id="email" name="email" placeholder="exemple@wildpodschool.com" />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" placeholder="Écrivez votre message ici"></textarea>
       
-    
-
-      <form class="contactForm">
-
-        <div class = "change-language">
-  
-          <section class="prenom-nom">
-          <br />
-        <input id="prenom"
-          type="text"
-          id="prénom"
-          name="prénom"
-          placeholder="Entrez votre prénom"
-          required
-        /><br />
-  
-        <br />
-        <input id="nom"
-          type="text"
-          id="nom"
-          name="nom"
-          placeholder="Entrez votre nom"
-          required
-        /><br />
       </section>
-  
-      <section class="email-message">
-        <br />
-        <input id="email"
-          type="email"
-          id="email"
-          name="email"
-          placeholder="exemple@wildpodschool.com"
-        /><br />
-        
-        
-
-        <br />
-        <textarea class="message"
-          id="message"
-          name="message"
-          placeholder="Écrivez votre message ici"
-        ></textarea
-        ><br />
-      </section>
-        <button class="button" type="submit">Envoyer</button>
-  
-</div>
-
-      </form>
-
       
+      <button class="button" type="submit">Envoyer</button>
 
-      
+    </form>
 
-      
-    
-  </section>
-  
 
   <footer>
     <div class="container">
-        
+
       <div class="arborescence">
-            <ul>
-                <li><a href="index.html">Wild Pod School</a></li>
-                <li><a href="tutorialsummary.html">Tutoriel</a></li>
-                <li><a href="portfolio.html">Galerie</a></li>
-                <li><a href="event.html">Évènement</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-       
-        <div class="imagefooter">
-            <img src="assets/PlanPod.jpg" alt="imagefooter" width="140px" height="120px" />
-        </div>
-        
-        <div class="rs">
-            <br /><a href="https://youtu.be/gO8N3L_aERg"><img id="facebook" src="assets/facebook.png" alt="facebook" width="50px" height="50px" /></a><br />
-            <br /><a href="https://youtu.be/ihe9zV07Lgk"><img id="instagram" src="assets/twitter.png" alt="twitter" width="50px" height="50px" /></a><br />
-            <br />
-            <a href="https://youtu.be/dQw4w9WgXcQ"><img id="twitter" src="assets/youtube.png" alt="youtube"
-                    width="50px" height="50px" /></a><br />
-        </div>
+        <ul>
+          <li><a href="index.html">Wild Pod School</a></li>
+          <li><a href="tutorialsummary.html">Tutoriels</a></li>
+          <li><a href="portfolio.html">Galerie</a></li>
+          <li><a href="event.html">Évènements</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="imagefooter">
+        <img src="assets/PlanPod.jpg" alt="imagefooter" width="140px" height="120px" />
+      </div>
+
+      <div class="rs">
+        <br /><a href="https://youtu.be/gO8N3L_aERg"><img id="facebook" src="assets/facebook.png" alt="facebook"
+            width="50px" height="50px" /></a><br />
+        <br /><a href="https://youtu.be/ihe9zV07Lgk"><img id="instagram" src="assets/twitter.png" alt="twitter"
+            width="50px" height="50px" /></a><br />
+        <br />
+        <a href="https://youtu.be/dQw4w9WgXcQ"><img id="twitter" src="assets/youtube.png" alt="youtube" width="50px"
+            height="50px" /></a><br />
+      </div>
+
     </div>
-   
+
     <div class="copyright"><small>&#9400;</small> 2021 - Designed by the Wild Pod School team. All Rights reserved.
     </div>
-</footer>
+  </footer>
+<script src="index.js"></script>
 </body>
+
 </html>

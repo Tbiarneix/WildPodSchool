@@ -311,8 +311,13 @@ button:hover {
 
 @media screen and (max-width: 765px) {
 
-    .html {
-        width: 100%;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
+    .arborescence {
+        display: none;
+    }
 }

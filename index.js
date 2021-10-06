@@ -6,3 +6,11 @@ menuBurger.addEventListener('click', function() {
     menuMobile.classList.toggle('is-active');
 });
 
+const message =
+  "Envoyé votre message est, l'équipe au plus vite répondra !";
+
+document.getElementById("contactForm");
+document.addEventListener("submit", function (event) {
+  event.preventDefault();
+  alert(message);
+});

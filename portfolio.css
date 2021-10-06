@@ -12,17 +12,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-
 }
 
 .top-picture h1 {
     display: flex;
     margin:0;
 }
+
 .top-picture img {
     max-width: 20%;
     margin: 0px;
 }
+
 section {
     margin-top: 150px;
     width: 80%;

@@ -23,9 +23,9 @@
     margin: 0px;
 }
 
-.contactForm {
+.contactContainer {
     background: black;
-    width: 50%;
+    width: 55%;
     padding: 2% 2% 2% 2%;
     margin-top: 5%;
     margin-left: auto;
@@ -35,69 +35,31 @@
     font-family: 'Teko', sans-serif;
 }
 
-.prenom-nom {
+.contactChildren {
     display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 16px;
+    flex-direction: column;
+    margin: 30px 10px 30px 10px;
+    gap: 10px;
 }
 
-#prenom {
-    margin-right: 0.5%;
-}
-
-#nom {
-    margin-left: 0.5%;
-}
-
-.email-message {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#email {
-width: 96%;    
-}
-
-.message {
-    margin-top: 30px;
-    width: 96%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-   
-}
-
-textarea,
 input:not([type="submit"]) { 
-    width: 100%;
     padding: 10px;
     border: 2px solid green;
     outline: none;
     border-radius: 6px;
 }
 
+textarea {
+    padding: 30px;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 6px;
+}
+
+
 /*mediaquery*/
 
 @media screen and (max-width: 480px) {
-
-    .contact {
-     justify-content: center;
-    }
-
-    .email-message {
-    max-width: 96%;
-    }
-
-    .contactForm {
-        width: 80%;
-        padding: 2% 2% 2% 2%;
-        margin-top: 5%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 25px;
-    }
 
     .hero {
         margin-top: 5rem;
@@ -113,6 +75,7 @@ input:not([type="submit"]) {
         max-width: 60%;
         margin-top: -3rem;
         margin: 0px;
-    } 
+    }
+
     }
 

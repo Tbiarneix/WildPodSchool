@@ -194,11 +194,14 @@ visibility: hidden;
         padding: 12px 16px;
         background-color: green;
         color: white;
+        font-weight: bold;
+        font-family: ;
         text-decoration: none;
     }
     .menu-mobile a:hover {
         background-color: black;
     }
+}
 
  /*FOOTER SECTION*/
 
@@ -257,7 +260,7 @@ visibility: hidden;
 
  button {
     display: inline-block;
-    background-color: green;
+    background-color: red;
     border-radius: 20px;
     border: 2px #CCCCCC;
     color: #EEEEEE;
@@ -271,7 +274,6 @@ visibility: hidden;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    font-family: 'Teko', sans-serif;
 }
 
 button:hover {

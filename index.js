@@ -25,3 +25,10 @@ else {
 // Si contactForm est en block le mettre en none et contactForm2 en block
 //Sinon le mettre en block et contactForm2 en none
 // repeter ces condition a l'infini
+const menuBurger = document.querySelector('.hamburger');
+const menuMobile = document.querySelector('.menu-mobile');
+
+menuBurger.addEventListener('click', function() { 
+    menuBurger.classList.toggle('is-active');
+    menuMobile.classList.toggle('is-active');
+});

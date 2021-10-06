@@ -1,4 +1,4 @@
-/* HEADER SECTION DESKTOP*/
+/* GLOBAL CSS */
 body {
     background: whitesmoke;
     margin-left: 0;
@@ -15,9 +15,8 @@ a:hover {
     color: white;
 }
 
-
-
 h2, h3, h4 {
+
   font-family: 'Teko', sans-serif;
 
 }
@@ -51,12 +50,27 @@ p {
     font-family: 'Red Hat Display', sans-serif;
     font-size: medium;
 }
-
     /*style générateur de quotes*/
 
 .generatorofquotes {
     margin: auto;
     text-align: center;
+
+
+/* HEADER SECTION DESKTOP */
+
+.menuPortable {
+    display: none; 
+}
+
+.logo-mobile{
+    display: none;
+}
+
+.menuDesktop {
+    display: flex;
+    width: 100%;
+
 }
 
 .mainhead {
@@ -82,7 +96,6 @@ nav {
     display: flex;
     align-items: center;
     padding: 0.2rem;
-
 }
 
 nav ul {
@@ -97,12 +110,8 @@ nav ul {
     flex: 1 1 40rem;
 }
 
-.logo-mobile {
-    visibility: hidden;
-}
-
-.hamburger {
-visibility: hidden;
+.menu-mobile {
+   display: none;
 }
 
 .active::after {
@@ -129,7 +138,7 @@ visibility: hidden;
     transition: width 0.3s;
   }
 
-  /*mediaquery*/
+  /* Mediaquery Header */
 
 @media screen and (max-width: 765px) {
     .logo {
@@ -137,11 +146,22 @@ visibility: hidden;
     }
 
     .logo-mobile {
-        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
     }
 
     .menu {
         display: none;
+    }
+
+    .menuPortable {
+        display: flex;
+    }
+
+    .menuMobileContainer {
+        display: flex;
+        flex-direction: row;
     }
 
     .hamburger {
@@ -149,9 +169,9 @@ visibility: hidden;
         position: relative;
         display: block;
         margin-left: 30%;
+        margin-right: 10px;
         width: 40px;
         height: 35px;
-        cursor: pointer;
         appearance: none;
         background: none;
         outline: none;
@@ -166,7 +186,7 @@ visibility: hidden;
     height: 5px;
     margin: 6px 0px;
     transition: 0.4s;
-    background-color: rgb(0, 161, 0);
+    background-color: green;
     }
 
     .hamburger.is-active::before {
@@ -181,11 +201,12 @@ visibility: hidden;
     }
 
     .menu-mobile {
-        background-color: white;
+        background-color: black;
         position: fixed;
         top: 0;
         left: 100%;
-        width: 100%;
+        width: 50%;
+        margin-top: 0;
         min-height: 100vh;
         display: block;
         z-index: 98;
@@ -196,22 +217,27 @@ visibility: hidden;
     .menu-mobile.is-active {
         left: 0;
     }
+    .active::after {
+        visibility: hidden;
+    }
 
-    .menu-mobile a {
+    .menu-mobile ul li a {
         display: block;
         width: 100%;
         max-width: 200px;
         margin: 0 auto 16px;
         text-align: center;
         padding: 12px 16px;
-        background-color: green;
         color: white;
         font-weight: bold;
-        font-family: ;
         text-decoration: none;
+        padding: 10%;  
     }
-    .menu-mobile a:hover {
-        background-color: black;
+
+    .menu-mobile li:hover {
+        width: 80%;
+        text-align: center;
+        margin-top: 16px;
     }
 }
 
@@ -220,7 +246,6 @@ visibility: hidden;
  footer {
      background:black;
      margin-top: 5%;
-     width: 100%;
     }
      
  .copyright {
@@ -272,7 +297,7 @@ visibility: hidden;
 
  button {
     display: inline-block;
-    background-color: red;
+    background-color: green;
     border-radius: 20px;
     border: 2px #CCCCCC;
     color: #EEEEEE;
@@ -291,4 +316,19 @@ visibility: hidden;
 button:hover {
     background-color: rgb(0, 161, 0);
     color: black;
+}
+
+/* MediaQueryFooter */
+
+@media screen and (max-width: 765px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .arborescence {
+        display: none;
+    }
 }

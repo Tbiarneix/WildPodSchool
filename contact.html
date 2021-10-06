@@ -19,58 +19,149 @@
 
 <header class="mainhead">
   <nav>
-    <div class="logo">
-      <a href="index.html"><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="50%" /></a>
+    <div class="logo-mobile">
+      <a href="index.html"><img src="assets/Logo WPS mobile version.png" alt="Logo" width="50%" height="50%" /></a>
     </div>
-    <div class="logo-mobile"><a href="index.html"><img src="assets/Logo WPS mobile version.png" alt="Logo" width="50%"
-          height="50%" /></a></div>
-    <ul class="menu">
+    <div class="menuDesktop">
+      <div class="logo">
+        <a href="index.html"><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="90%" /></a>
+      </div>
+      <ul class="menu">
+        <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
+        <li><a class="active" href="portfolio.html">Galerie</a></li>
+        <li><a class="active" href="event.html">Évènements</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+
+    <div class="menuPortable">
+      <div class="menuMobileContainer">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+    <ul class="menu-mobile">
       <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
       <li><a class="active" href="portfolio.html">Galerie</a></li>
       <li><a class="active" href="event.html">Évènements</a></li>
       <li><a class="active" href="contact.html">Contact</a></li>
     </ul>
+    </div>
+
   </nav>
-  <button class="hamburger">
-    <div class="bar"></div>
-  </button>
 </header>
-<nav class="menu-mobile">
-  <a class="active" href="tutorialsummary.html">Tutoriels</a>
-  <a class="active" href="portfolio.html">Galerie</a>
-  <a class="active" href="event.html">Évènements</a>
-  <a class="active" href="contact.html">Contact</a>
-</nav>
 
 <!-- Contact Section -->
 
 <body>
+
   <div class="hero">
     <h1>Nous contacter</h1>
     <img class="sabre" src="assets/Sabre laser.png" alt="Sabre laser" />
   </div>
 
-    <form class="contactContainer">
+  <div class="container-flex">
+    <div class="list-container">
+      <label class="label-french" for="language-selector">Choisis ton langage:</label>
+      <label class="label-star-wars" for="language-selector">STARWARS:</label>
+      <label class="label-clingon" for="language-selector">CLINGON:</label>
+      <select id="language-selector">
 
-      <section class="contactChildren">
+        <option value="https://upload.wikimedia.org/wikipedia/commons/4/48/BLANK_ICON.png">&mdash;</option>
 
-        <label for="prénom">Prénom :</label>
-        <input type="text" id="prénom" name="prénom" placeholder="Entrez votre prénom" required />
+        <option class="clingon" value="clingon">clingon</value>
+        <option class="starwars" value="star wars">star wars</value>
+        <option class="french" value="français">french</value>
 
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required />
+      </select>
 
-        <label for="email">Email :</label>
-        <input id="email" type="email" id="email" name="email" placeholder="exemple@wildpodschool.com" />
+    </div>
 
-        <label for="message">Message :</label>
-        <textarea id="message" name="message" placeholder="Écrivez votre message ici"></textarea>
-      
-      </section>
-      
-      <button class="button" type="submit">Envoyer</button>
+  </div>
 
-    </form>
+
+  <!-- Formulaire zone -->
+
+  <form class="formu-french">
+
+
+
+    <section class="contactChildren">
+
+      <label for="prénom">Prénom :</label>
+      <input type="text" id="prénom" name="prénom" placeholder="Entrez votre prénom" required />
+
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required />
+
+      <label for="email">Email :</label>
+      <input id="email" type="email" id="email" name="email" placeholder="exemple@wildpodschool.com" />
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" placeholder="Écrivez votre message ici"></textarea>
+
+    </section>
+
+    <button class="button" type="submit">Envoyer</button>
+
+  </form>
+
+
+
+  <form class="formu-star-wars">
+
+
+
+    <section class="contactChildren">
+
+      <label for="prénom">Prénom :</label>
+      <input type="text" id="prénom" name="prénom" placeholder="STARWARS" required />
+
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" placeholder="ESTARWARS" required />
+
+      <label for="email">Email :</label>
+      <input id="email" type="email" id="email" name="email" placeholder="exemple@wildpodschool.com" />
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" placeholder="ÉSTARWARS"></textarea>
+
+    </section>
+
+    <button class="button" type="submit">Envoyer</button>
+
+  </form>
+
+
+
+
+  <form class="formu-clingon">
+
+
+
+    <section class="contactChildren">
+
+      <label for="prénom">Prénom :</label>
+      <input type="text" id="prénom" name="prénom" placeholder="CLINGON" required />
+
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" placeholder="CLINGON" required />
+
+      <label for="email">Email :</label>
+      <input id="email" type="email" id="email" name="email" placeholder="exemple@wildpodschool.com" />
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" placeholder="CLINGON"></textarea>
+
+    </section>
+
+    <button class="button" type="submit">Envoyer</button>
+
+  </form>
+
+<!-- FOOTER -->
 
 
   <footer>
@@ -99,7 +190,6 @@
         <a href="https://youtu.be/dQw4w9WgXcQ"><img id="twitter" src="assets/youtube.png" alt="youtube" width="50px"
             height="50px" /></a><br />
       </div>
-
     </div>
     <div class= "generatorofquotes">
       <h4 class="generator"> </h4>
@@ -109,6 +199,7 @@
   </footer>
 <script src="generator.js"></script>
 <script src="index.js"></script>
+
 </body>
 
 </html>

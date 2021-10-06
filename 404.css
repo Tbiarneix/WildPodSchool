@@ -1,15 +1,11 @@
-body {
-   
-}
-
 section {
-    margin-top: 12rem;
-    min-height: 43rem;
+    margin-top: 6rem;
+    min-height: 47rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets404/gif404.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    margin-bottom: 0px;
+    margin-bottom: -3rem;
 
 }
 
@@ -58,12 +54,13 @@ footer {
 @media screen and (max-width: 1026px) {
     section{
         margin-top: 2rem;
-        min-height: 30rem;
+        min-height: 32rem;
         background-size: 150%;
     }
     .page404{
         margin-top: -2rem;
         padding-top: 2rem;
+        margin-bottom: 0px;
     }
 }
 
@@ -72,7 +69,6 @@ footer {
         margin-top: 7rem;
         min-height: 38rem;
         background-size: 310%;
-        margin-bottom: ;
     }
 
     .page404{

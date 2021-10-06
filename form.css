@@ -22,17 +22,17 @@
  }
 
  .test {
-     width: 100%;
-     margin: auto;
+     width: 30px;
+    
+     height: 30px;
+     position: fixed;
+     right: 6px;
+     top: 300px;
      background-color: brown;
+     z-index: 1;
     
  }
 
-.button1 {
-    background-color: red;
-    width: 30px;
-    height: 30px;
-}
 
  .contactForm {
      background: black;
@@ -59,7 +59,7 @@
      color: white;
      font-family: 'Teko', sans-serif;
  }
-
+/*
  .test:active .contactForm {
      display: none;
  }
@@ -67,7 +67,7 @@
  .test:active .contactForm2 {
      display: block;
  }
-
+*/
  .prenom-nom {
      display: flex;
      justify-content: center;

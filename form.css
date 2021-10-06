@@ -1,5 +1,16 @@
  /*CONTACT SECTION*/
 
+ @font-face {
+    font-family: klingonfont;
+    src: url(assets/klingonfont.ttf);
+}
+
+@font-face {
+    font-family: starwarsfont;
+    src: url(assets/Aurebesh.otf);
+}
+
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -29,6 +40,23 @@
     flex-direction: column;
     margin: 30px 10px 30px 10px;
     gap: 10px;
+    
+}
+
+.contactChildrenStar {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px 30px 10px;
+    gap: 10px;
+    font-family: starwarsfont;
+}
+
+.contactChildrenKling {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px 30px 10px;
+    gap: 10px;
+    font-family: klingonfont;
 }
 
 input:not([type="submit"]) { 
@@ -104,11 +132,18 @@ justify-content: center;
 
 .label-star-wars {
     display: none;
+    font-family: starwarsfont;
+   
 }
+
+
 
 .label-clingon {
     display: none;
+    font-family: klingonfont;
+    
 }
+
 
 
 
@@ -142,8 +177,6 @@ button {
 }
 
 }
-
-
 
 
 

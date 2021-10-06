@@ -65,15 +65,15 @@
   <div class="container-flex">
     <div class="list-container">
       <label class="label-french" for="language-selector">Choisis ton langage:</label>
-      <label class="label-star-wars" for="language-selector">STARWARS:</label>
-      <label class="label-clingon" for="language-selector">CLINGON:</label>
+      <label class="label-star-wars" for="language-selector">Choisis ton langage:</label>
+      <label class="label-clingon" for="language-selector">Choisis ton langage:</label>
       <select id="language-selector">
 
         <option value="https://upload.wikimedia.org/wikipedia/commons/4/48/BLANK_ICON.png">&mdash;</option>
 
-        <option class="clingon" value="">clingon</value>
-        <option class="starwars" value="">star wars</value>
-        <option class="french" value="">french</value>
+        <option class="clingon" value="">Klingon</value>
+        <option class="starwars" value="">Star wars</value>
+        <option class="french" value="">Français</value>
 
       </select>
 
@@ -114,23 +114,24 @@
 
 
 
-    <section class="contactChildren">
+    <section class="contactChildrenStar" >
 
       <label for="prénom">Prénom :</label>
-      <input type="text" id="prénom" name="prénom" placeholder="STARWARS" required />
+      <input type="text" id="prénom" name="prénom" style="font-family: starwarsfont" placeholder="STARWARS" required />
 
       <label for="nom">Nom :</label>
-      <input type="text" id="nom" name="nom" placeholder="ESTARWARS" required />
+      <input type="text" id="nom" name="nom" style="font-family: starwarsfont" placeholder="ESTARWARS" required />
 
       <label for="email">Email :</label>
-      <input id="email" type="email" id="email" name="email" placeholder="exemple@wildpodschool.com" />
+      <input id="email" type="email" id="email" name="email" style="font-family: starwarsfont"
+        placeholder="exemple@wildpodschool.com" />
 
       <label for="message">Message :</label>
-      <textarea id="message" name="message" placeholder="ÉSTARWARS"></textarea>
+      <textarea id="message" name="message" style="font-family: starwarsfont" placeholder="ÉSTARWARS"></textarea>
 
     </section>
 
-    <button class="button" type="submit">Envoyer</button>
+    <button class="button" style="font-family: starwarsfont" type="submit">Envoyer</button>
 
   </form>
 
@@ -141,27 +142,32 @@
 
 
 
-    <section class="contactChildren">
+    <section class="contactChildrenKling">
 
       <label for="prénom">Prénom :</label>
-      <input type="text" id="prénom" name="prénom" placeholder="CLINGON" required />
+      <input type="text" id="prénom" name="prénom" style="font-family: klingonfont" placeholder="Entrez votre prénom"
+        required />
 
       <label for="nom">Nom :</label>
-      <input type="text" id="nom" name="nom" placeholder="CLINGON" required />
+      <input type="text" id="nom" name="nom" style="font-family: klingonfont" placeholder="Entrez votre nom" required />
 
       <label for="email">Email :</label>
-      <input id="email" type="email" id="email" name="email" placeholder="exemple@wildpodschool.com" />
+      <input id="email" type="email" id="email" name="email" style="font-family: klingonfont"
+        placeholder="exemple@wildpodschool.com" />
 
       <label for="message">Message :</label>
-      <textarea id="message" name="message" placeholder="CLINGON"></textarea>
+      <textarea id="message" name="message" style="font-family: klingonfont"
+        placeholder="Écrivez votre message ici"></textarea>
+
+        
 
     </section>
 
-    <button class="button" type="submit">Envoyer</button>
+    <button class="button" style="font-family: klingonfont" type="submit">Envoyer</button>
 
   </form>
 
-<!-- FOOTER -->
+  <!-- FOOTER -->
 
 
   <footer>
@@ -191,14 +197,14 @@
             height="50px" /></a><br />
       </div>
     </div>
-    <div class= "generatorofquotes">
+    <div class="generatorofquotes">
       <h4 class="generator"> </h4>
     </div>
     <div class="copyright"><small>&#9400;</small> 2021 - Designed by the Wild Pod School team. All Rights reserved.
     </div>
   </footer>
-<script src="generator.js"></script>
-<script src="index.js"></script>
+  <script src="generator.js"></script>
+  <script src="index.js"></script>
 
 </body>
 

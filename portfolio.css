@@ -1,4 +1,4 @@
-/* portfolio css part */
+html { scroll-behavior: smooth; }
 
 .top-picture {
     display: flex;
@@ -383,4 +383,6 @@ section {
     section {
         margin-top: 10px;
     }
+
+    
 }

@@ -23,18 +23,6 @@
     margin: 0px;
 }
 
-.contactContainer {
-    background: black;
-    width: 55%;
-    padding: 2% 2% 2% 2%;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    color: white;
-    font-family: 'Teko', sans-serif;
-}
-
 .contactChildren {
     display: flex;
     flex-direction: column;
@@ -48,6 +36,81 @@ input:not([type="submit"]) {
     outline: none;
     border-radius: 6px;
 }
+
+/*CSS FORMULAIRE CHANGE LANGUAGE */
+
+.formu-french {
+    display: block;
+    background: black;
+    width: 55%;
+    padding: 2% 2% 2% 2%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    margin-top: 0px
+
+}
+
+.formu-star-wars {
+    display: none;
+    background: black;
+    width: 55%;
+    padding: 2% 2% 2% 2%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    margin-top: 0px
+}
+
+.formu-clingon {
+    display: none;
+    background: black;
+    width: 55%;
+    padding: 2% 2% 2% 2%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    margin-top: 0px;
+}
+
+/* CSS LABEL */
+
+.container-flex {
+display: flex;;
+justify-content: center;
+}
+
+.list-container {
+    padding: 10px;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 6px;
+    margin-top: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.label-star-wars {
+    display: none;
+}
+
+.label-clingon {
+    display: none;
+}
+
+
+
 
 
 

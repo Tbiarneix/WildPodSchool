@@ -197,6 +197,10 @@
 }
 
 
+
+html { scroll-behavior: smooth; }
+
+
 .avis{
     width: 80%;
     height: 25rem;

@@ -86,7 +86,7 @@ input:not([type="submit"]) {
 /* CSS LABEL */
 
 .container-flex {
-display: flex;;
+display: flex;
 justify-content: center;
 }
 
@@ -123,7 +123,22 @@ textarea {
     border: 2px solid green;
     outline: none;
     border-radius: 6px;
+
 }
+.container-flex {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    width: 100%;
+}
+
+
+}
+
+
 
 
 
@@ -152,7 +167,7 @@ textarea {
     }
         
        
-    }
+    
 
  
    

@@ -17,6 +17,7 @@
 .hero h1 {
     display: flex;
     margin:0;
+    text-align: center;
 }
 .hero img {
     max-width: 20%;
@@ -129,9 +130,10 @@ textarea {
 
 /*mediaquery*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
     .hero {
+        min-height: 25%;
         margin-top: 5rem;
         height: 17rem;
     }
@@ -148,3 +150,10 @@ textarea {
     }
 
     }
+        
+       
+    }
+
+ 
+   
+

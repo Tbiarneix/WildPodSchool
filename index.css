@@ -198,33 +198,77 @@
 
 
 
-html { scroll-behavior: smooth; }
-
+hr{
+    margin-top: 10%;
+}
 
 .avis{
-    width: 80%;
-    height: 25rem;
-    border: black solid ;
+    width: 60%;
+    height: 17rem;
+    
     margin-left: auto;
     margin-right: auto;
     margin-top: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-hr{
-    margin-top: 10%;
+.firstComment img{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+.firstComment h3{
+    margin-top: 0%;
+}
+.firstComment h5{
+    margin-top: 0%;
+    margin-left: 35%;
+}
+.avisNotes{
+    height: 100%;
+    width: 30%;
+    border: black solid;
+    
 }
 
+.avisComment button{
+    margin-bottom: 10%;
+}
+
+.avisComment{
+    height: 100%;
+    width: 70%;
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.star{
+    font-size: 1.5rem;
+    margin: auto;
+}
+.stars{
+    margin-left: 20%;
+}
+
+.stars p{
+    font-size: 50px;
+    margin-left: 20%;
+}
+
+.note{
+    font-size: 30px;
+    margin-left: 40%;
+}
 
 
 
 @media screen and (max-width: 600px) {
-
-    
-
-
 
 .presentation header h1{
     font-size: 10rem;
@@ -297,5 +341,86 @@ hr{
     align-items: center;
     font-size: 70px;
 }
+
+.avis{
+    width: 60%;
+    height: 17rem;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.firstComment img{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+.firstComment h3{
+    margin-top: 0%;
+    margin-left: 15%;
+}
+.firstComment h5{
+    margin-top: 0%;
+    margin-left: 35%;
+}
+.avisNotes{
+    height: 100%;
+    width: 30%;
+    border: black solid;
+    
+}
+
+.avisComment button{
+    margin-bottom: 15%;
+}
+
+.avisComment{
+    height: 100%;
+    width: 80%;
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.avisNotes{
+    height: 50%;
+    width: 80%;
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.star{
+    font-size: 1.5rem;
+    margin: auto;
+}
+.stars{
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-right: 15%;
+}
+
+.stars p{
+    font-size: 50px;
+    margin-left: 20%;
+}
+
+.note{
+    font-size: 30px;
+    margin-left: 0%;
+}
+
 
 }

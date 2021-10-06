@@ -44,6 +44,7 @@ french.addEventListener("click", function () {
     labelFrench.style.display = "block";
 })
 
+// JS HAMBURGER //
 
 const menuBurger = document.querySelector('.hamburger');
 const menuMobile = document.querySelector('.menu-mobile');

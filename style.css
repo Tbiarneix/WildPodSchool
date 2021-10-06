@@ -281,7 +281,7 @@ button:hover {
     color: black;
 }
 
-.button {
+.button-head {
     background-image: url("assets/fleche2.png");
     width: 10%;
     position: fixed;
@@ -289,7 +289,7 @@ button:hover {
   right: 0px;
 }
 
-.button img {
+.button-head img {
     width: 100%;
 }
 

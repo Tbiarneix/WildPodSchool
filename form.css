@@ -23,7 +23,8 @@
     margin: 0px;
 }
 
-.contactContainer {
+.formu-french {
+    display: block;
     background: black;
     width: 55%;
     padding: 2% 2% 2% 2%;
@@ -33,6 +34,49 @@
     border-radius: 25px;
     color: white;
     font-family: 'Teko', sans-serif;
+
+}
+
+.formu-star-wars {
+    display: none;
+    background: black;
+    width: 55%;
+    padding: 2% 2% 2% 2%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+.formu-clingon {
+    display: none;
+    background: black;
+    width: 55%;
+    padding: 2% 2% 2% 2%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+
+.list-container {
+    padding: 10px;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 6px;
+}
+
+.label-star-wars {
+    display: none;
+}
+
+.label-clingon {
+    display: none;
 }
 
 .contactChildren {
@@ -48,6 +92,7 @@ input:not([type="submit"]) {
     outline: none;
     border-radius: 6px;
 }
+
 
 
 

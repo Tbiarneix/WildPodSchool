@@ -121,6 +121,19 @@
     object-fit: cover;
 }
 
+.button {
+    background-image: url("assets/fleche2.png");
+    width: 10%;
+    position: fixed;
+  bottom: 170px;
+  right: 0px;
+}
+
+.button img {
+    width: 100%;
+}
+
+html { scroll-behavior: smooth; }
 /*mediaquery*/
 
 @media screen and (max-width: 600px){

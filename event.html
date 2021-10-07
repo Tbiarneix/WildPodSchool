@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" type="text/css" >
-    <link rel="stylesheet" href="styleevent.css" type="text/css" >
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="styleevent.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
 </head>
 
+<body>
+    <audio id="lightsaber" preload="auto">
+        <source src="assets/lightsabersound.mp3" type="audio/mpeg">
+    </audio>
 <header class="mainhead">
     <nav>
-        <div class="logo">
-            <a href="index.html"
-              ><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="50%"
-            /></a>
-          </div>
-        <ul>
-        <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
-        <li><a class="active" href="portfolio.html">Galerie</a></li>
-        <li><a class="active" href="event.html">Évènements</a></li>
-        <li><a class="active" href="contact.html">Contact</a></li>
+        <div class="logo-mobile">
+            <a href="index.html"><img src="assets/Logo WPS mobile version.png" alt="Logo" width="50%"
+                    height="50%" /></a>
+        </div>
+        <div class="menuDesktop">
+            <div class="logo">
+                <a href="index.html"><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="90%" /></a>
+            </div>
+            <ul class="menu">
+                <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
+                <li><a class="active" href="portfolio.html">Galerie</a></li>
+                <li><a class="active" href="event.html">Évènements</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="menuPortable">
+            <div class="menuMobileContainer">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+        <ul class="menu-mobile">
+            <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
+            <li><a class="active" href="portfolio.html">Galerie</a></li>
+            <li><a class="active" href="event.html">Évènements</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
+        </div>
+
     </nav>
 </header>
 
 
-
 <body>
+
     <section class="eventtitle">
         <h1>agenda</h1>
         <img src="img/sabre.png" alt="sabre">
@@ -42,12 +68,15 @@
     <section class="eventpresentationsection">
         <h2>Retrouver tous nos évènements ici !</h2>
 
-        <p>Chaque année la Wild Pod School, vous propose des rencontres incontournables pour devenir LA ou LE pilote de podracer à suivre.
+        <p>Chaque année la Wild Pod School, vous propose des rencontres incontournables pour devenir LA ou LE pilote de
+            podracer à suivre.
             Ateliers, conférences, compétitions... Améliorez vos skills, développez vos connaissances, dépassez-vous !
-            Pour une demande de programme personnalisé, n'hésitez pas à nous contacter <a href="/contact.html" target="_blank" rel="noopener">en cliquant ici !</a>
+
+            Pour une demande de programme personnalisé, n'hésitez pas à nous contacter <a href="/contact.html" target="_blank" rel="noopener"><strong>en cliquant ici !</strong></a>
+
         </p>
     </section>
-        
+
     <section class="eventscards">
 
         <div class="eventcard">
@@ -58,11 +87,11 @@
                 <h3>Classe de méditation extra-pod</h3>
                 <p>Embarquez dans une course méditative, car mieux penser, c'est mieux piloter.<br>
                     Animer par Obi-"Ben"-Wan version hollogramme.<br></p>
-                    <br>
+                <br>
                 <p><strong>Le 45/07/-12 à l'aube<br><br>
-                    
-                    Ktath'atn</strong></p>
-                <button>S'incrire</button>
+
+                        Ktath'atn</strong></p>
+                        <a href="https://www.youtube.com/watch?v=OQjkfpf4woA&t=1s"><button>S'incrire</button></a>
             </div>
         </div>
 
@@ -74,11 +103,11 @@
                 <h3>Atelier de mécanique</h3>
                 <p>Apprenez à améliorer, chouchouter ou réparer votre épave entre deux courses.<br>
                     Animer par un Droïde Mécanicien DUM.</p>
-                    
+
                 <p><strong>Inscrivez-vous pour recevoir une transmission de rappel<br>
-            
-                    <br>Jalindi</strong></p>
-                <button>S'incrire</button>
+
+                        <br>Jalindi</strong></p>
+                <a href="https://www.youtube.com/watch?v=OwGG5fX7bxY"><button>S'inscrire</button></a>
             </div>
         </div>
 
@@ -88,11 +117,12 @@
             </div>
             <div class="eventsecond">
                 <h3>Course des poussins</h3>
-                <p>Venez applaudir nos jeunes padawans relever le grand défi du rallye annuel forestier. Cascades et cabrioles ! Nous cherchons d'ailleurs toujours des bénévoles médics.</p>
-                
+                <p>Venez applaudir nos jeunes padawans relever le grand défi du rallye annuel forestier pour des cascades et
+                    cabrioles ! Nous cherchons d'ailleurs toujours des bénévoles médics.</p>
+
                 <p><strong>Le 12/81/4A<br><br>
-                Kashyyyk</strong></p>
-                <button>S'incrire</button>
+                        Kashyyyk</strong></p>
+               <a href="https://landing.lecomparateurassurance.com/2/sante/mutuelle-2015/mutuelle-famille.html?utm_source=adwords&utm_medium=cpc&utm_term=mutuelle%20pour%20enfant_b&utm_content=mutuelle-famille&utm_campaign=mutuelle_globale_adw&gclid=CjwKCAjwtfqKBhBoEiwAZuesiKrQMcbXay1WkBddas4RGN67PSKnSZxBjYqKfCV0TtY91PGoW2eJsBoCgxsQAvD_BwE"><button>S'inscrire</button></a>
             </div>
         </div>
 
@@ -102,11 +132,12 @@
             </div>
             <div class="eventsecond">
                 <h3>Cours de pilotage 8.5</h3>
-                <p>Comme chaque année nous relançons les cours de pilotage Wild Pod School ouverts à tous. Le dernier formateur ayant rejoint les étoiles, nous annoncerons très prochainement son successeur.</p>
-                
+                <p>Comme chaque année nous relançons les cours de pilotage Wild Pod School ouverts à tous. Le dernier
+                    formateur ayant rejoint les étoiles, nous annoncerons très prochainement son successeur.</p>
+
                 <p><strong>Tous les mardis<br><br>
-                Corellia</strong></p>
-                <button>S'incrire</button>
+                        Corellia</strong></p>
+                <a href="https://www.securite-routiere.gouv.fr/"><button>S'inscrire</button></a>
             </div>
         </div>
 
@@ -115,12 +146,13 @@
                 <img src="img/event5.jpg" alt="event5" width="100%">
             </div>
             <div class="eventsecond">
-                <h3>Convention de la pièce détachée</h3>
-                <p>Du microcomposant à la pièce de carrosserie unique pour répondre à tous vos projets ! Une rencontre incontournable avec plus de 500 exposants provenant de toute la galaxie.</p>
-                
+                <h3>Convention de pièces détachées</h3>
+                <p>Du microcomposant à la pièce de carrosserie unique, pour répondre à tous vos projets ! Une rencontre incontournable avec plus de 500 exposants provenant de toute la galaxie.</p>
+      
+
                 <p><strong>Toutes les années bissextiles<br><br>
-                Naboo</strong></p>
-                <button>S'incrire</button>
+                        Naboo</strong></p>
+                <a href="https://blog-electromenager.groupe-dragon.com/reparation-electro-demarche-ecologique/"><button>S'inscrire</button></a>
             </div>
         </div>
         <div class="eventcard">
@@ -130,23 +162,26 @@
             <div class="eventsecond">
                 <h3>Atelier Drift</h3>
                 <p>Le nom parlant de lui-même, vous apprendrez à faire et contrôler vos drifts like a pro.<br>
-                Plusieurs pilotes victorieux animeront cet atelier en rotation afin de montrer leurs diverses techniques.</p>
-                
+                    Plusieurs pilotes victorieux animeront cet atelier en rotation afin de présenter leurs diverses
+                    techniques.</p>
+
                 <p><strong>23/00/4B<br><br>
-                Tatooine</strong></p>
-                <button>S'incrire</button>
+                        Tatooine</strong></p>
+                <a href="https://www.facebook.com/DriftnFun/"><button>S'inscrire</button></a>
             </div>
         </div>
     </section>
+
+   
 
     <footer>
         <div class="container">
     <div class="arborescence">
     <ul>
         <li><a href="index.html">Wild Pod School</a></li>
-        <li><a href="tutorialsummary.html">Tutoriel</a></li>
+        <li><a href="tutorialsummary.html">Tutoriels</a></li>
         <li><a href="portfolio.html">Galerie</a></li>
-        <li><a href="event.html">Évènement</a></li>
+        <li><a href="event.html">Évènements</a></li>
         <li><a href="contact.html">Contact</a></li>  
     </ul>
     </div>
@@ -161,7 +196,12 @@
                 width="50px" height="50px" /></a><br />
     </div>
     </div>
+    <div class= "generatorofquotes">
+        <h4 class="generator"> </h4>
+    </div>
     <div class="copyright"><small>&#9400;</small> 2021 - Designed by the Wild Pod School team. All Rights reserved.</div>
     </footer>
+    <script src="generator.js"></script>
+    <script src="index.js"></script>
 </body> 
 </html>  

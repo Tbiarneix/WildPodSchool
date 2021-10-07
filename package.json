@@ -1,0 +1,20 @@
+{
+  "name": "WildPodSchool",
+  "version": "1.0.0",
+  "description": "The Wild Pod School is an entertainment website where all racer pod padawan can learn to build and drive a podracer.",
+  "main": "index.js",
+  "scripts": {
+   "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tbiarneix/WildPodSchool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tbiarneix/WildPodSchool/issues"
+  },
+  "homepage": "https://github.com/Tbiarneix/WildPodSchool#readme"
+}

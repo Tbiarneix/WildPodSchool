@@ -136,7 +136,7 @@
 }
     
 .card0:hover {
-    background: url('/assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg') left center no-repeat;
+    background: url('/assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg')  center no-repeat;
     background-size: 400px;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .card1:hover {
-    background: url('/assetsIndex/pexels-brett-sayles-1437218.jpg') left center no-repeat;
+    background: url('/assetsIndex/pexels-brett-sayles-1437218.jpg') center no-repeat;
     background-size: 400px;
 }
 
@@ -158,7 +158,7 @@
 }
 
 .card2:hover {
-    background: url('/assetsIndex/greedo.jpg') left center no-repeat;
+    background: url('/assetsIndex/greedo.jpg')  center no-repeat;
     background-size: 400px;
 }
 
@@ -169,7 +169,7 @@
   }
   
   .card3:hover {
-      background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') left center no-repeat;
+      background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') center no-repeat;
       background-size: 400px;
   }
 
@@ -180,7 +180,7 @@
   }
   
   .card4:hover {
-      background: url('/assetsIndex/chubi.jpg') left center no-repeat;
+      background: url('/assetsIndex/chubi.jpg') center no-repeat;
       background-size: 400px;
   }
 
@@ -267,7 +267,6 @@ hr{
 }
 
 
-
 @media screen and (max-width: 600px) {
 
 .presentation header h1{
@@ -294,13 +293,6 @@ hr{
     margin-left: 10% ;
     margin-bottom: 3%;
    
-}
-
-.totalCards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .circle1 {
@@ -421,6 +413,11 @@ hr{
     font-size: 30px;
     margin-left: 0%;
 }
+.totalCards{
+    display: block;
+    margin-left: 20%;
+}
 
 
 }
+

@@ -45,8 +45,8 @@
 
     <section>
         <div class="carousel">
-            <ul class="carousel-items">
-                <li class="carousel-item">
+            <scroll-container class="carousel-items">
+                <scroll-page class="carousel-item" id="formator1">
                     <div class="team-cards">
                         <div class="team-card-first-part">
                             <img src="assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg"
@@ -54,11 +54,11 @@
                         </div>
                         <div class="team-card-second-part">
                             <h2>Kachiri</h2>
-                            <a><button id="open-modal">Découvrir</button></a>
+                            <a><button class="open-modal">Découvrir</button></a>
                         </div>
                     </div>
-                </li>
-                <li class="carousel-item">
+                </scroll-page>
+                <scroll-page class="carousel-item" id="formator2">
                     <div class="team-cards">
                         <div class="team-card-first-part">
                             <img src="assetsIndex/pexels-brett-sayles-1437218.jpg"
@@ -66,22 +66,22 @@
                         </div>
                         <div class="team-card-second-part">
                             <h2>Emma</h2>
-                            <a><button id="open-modal">Découvrir</button></a>
+                            <a><button class="open-modal">Découvrir</button></a>
                         </div>
                     </div>
-                </li>
-                <li class="carousel-item">
+                </scroll-page>
+                <scroll-page class="carousel-item" id="formator3">
                     <div class="team-cards">
                         <div class="team-card-first-part">
                             <img src="assetsIndex/greedo.jpg" alt="Constructeur légo de podracer" />
                         </div>
                         <div class="team-card-second-part">
                             <h2>Malik</h2>
-                            <a><button id="open-modal">Découvrir</button></a>
+                            <a><button class="open-modal">Découvrir</button></a>
                         </div>
                     </div>
-                </li>
-                <li class="carousel-item">
+                </scroll-page>
+                <scroll-page class="carousel-item" id="formator4">
                     <div class="team-cards">
                         <div class="team-card-first-part">
                             <img src="assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg"
@@ -89,35 +89,47 @@
                         </div>
                         <div class="team-card-second-part">
                             <h2>Cristi</h2>
-                            <a><button id="open-modal">Découvrir</button></a>
+                            <a><button class="open-modal">Découvrir</button></a>
                         </div>
                     </div>
-                </li>
-                <li class="carousel-item">
+                </scroll-page>
+                <scroll-page class="carousel-item" id="formator5">
                     <div class="team-cards">
                         <div class="team-card-first-part">
                             <img src="assetsIndex/chubi.jpg" alt="Constructeur légo de podracer" />
                         </div>
                         <div class="team-card-second-part">
                             <h2>Thomas</h2>
-                            <a><button id="open-modal">Découvrir</button></a>
+                            <a><button class="open-modal">Découvrir</button></a>
                         </div>
                     </div>
-                </li>
+                </scroll-page>
+            </scroll-container>
+            <nav class="formators-nav">
+                <div class="navigation-arrow"> <a id="prev-arrow" href="#formator1"><img class="nav-arrows" src="assetsteam/arrow-left.png"/></a> </div>
+                <div class="navigation-point">
+                    <a href="#formator1">•</a>
+                    <a href="#formator2">•</a>
+                    <a href="#formator3">•</a>
+                    <a href="#formator4">•</a>
+                    <a href="#formator5">•</a>
+                </div>
+                <div class="navigation-arrow"> <a id="next-arrow" href="#formator5"><img class="nav-arrows" src="assetsteam/arrow-right.png"/></a> </div>
+            </nav>
         </div>
     </section>
     <section>
         <div id="modal" class="modal">
             <div class="modal-content">
                 <h2>Présentation</h2>
-                    <p>Ce sont toutes et tous des instructeurs de la première heure ! Ils peuvent démonter un moteur de
-                        Pod en 1h30. Bon par contre parfois, quand ils les remontent ça explose, mais
-                        franchement, qui s'en ferait pour si peu ?
-                        En plus ils on tous leur brevet de pilote. Enfin certain l'ont peut-être volé à un autre pilote
-                        après une soirée bien arrosée. N'empêche que ça reste la seule école de formation de PodRacer de
-                        la Galaxie. Personne d'autre ne voudra prendre votre argent pour vous apprendre les rudiments.
-                        Autant faire ca avec nous.</p>
-                    <button id="close-modal">Fermer</button>
+                <p>Ce sont toutes et tous des instructeurs de la première heure ! Ils peuvent démonter un moteur de
+                    Pod en 1h30. Bon par contre parfois, quand ils les remontent ça explose, mais
+                    franchement, qui s'en ferait pour si peu ?
+                    En plus ils on tous leur brevet de pilote. Enfin certain l'ont peut-être volé à un autre pilote
+                    après une soirée bien arrosée. N'empêche que ça reste la seule école de formation de PodRacer de
+                    la Galaxie. Personne d'autre ne voudra prendre votre argent pour vous apprendre les rudiments.
+                    Autant faire ça avec nous.</p>
+                <button id="close-modal">Fermer</button>
             </div>
         </div>
 

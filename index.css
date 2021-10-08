@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: bottom;
 }
 
 .circle1 {
@@ -56,7 +57,7 @@
 .presentation{
     margin: 10px;
     width: auto;
-    height: 400px;
+    height: 500px;
     background-color: rgba(228, 227, 227, 0.61);
     width: 80%;
     margin-left: 10%;
@@ -80,6 +81,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
+    text-align: justify;
 }
 
 .buttons-lien{
@@ -97,11 +99,13 @@
 
 .teachers h2{
     margin-bottom: 0%;
+    font-size: 3rem;
 }
 
 .totalCards{
     display: flex;
     margin-inline: 5%;
+    margin-left: 7%;
 }
 
 .card {
@@ -196,8 +200,6 @@
     opacity: 1;
 }
 
-
-
 hr{
     margin-top: 10%;
 }
@@ -205,14 +207,12 @@ hr{
 .avis{
     width: 60%;
     height: 17rem;
-    
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .firstComment img{
@@ -230,7 +230,11 @@ hr{
     height: 100%;
     width: 30%;
     border: black solid;
-    
+}
+
+.avisNotes h3{
+    margin-left: 40%;
+    font-size: 30px;
 }
 
 .avisComment button{
@@ -245,7 +249,6 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .star{
@@ -253,7 +256,7 @@ hr{
     margin: auto;
 }
 .stars{
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .stars p{
@@ -266,21 +269,28 @@ hr{
     margin-left: 40%;
 }
 
-
-@media screen and (max-width: 600px) {
-
-.presentation header h1{
-    font-size: 10rem;
+hr{
+    max-width: 70%;
 }
+
+.team {
+   margin-left: 45%;
+   margin-top: 5%;
+   width: 15rem;
+}
+
+@media screen and (max-width: 450px) {
+
+
 
 .presentation{
     margin: 10px;
     width: auto;
-    height: 600px;
+    height: 100%;
     background-color: rgba(228, 227, 227, 0.61);
     width: 80%;
     margin-left: 10%;
-    margin-top: 20%;
+    
     padding-left: auto;
     padding-right: auto;
     border-radius: 20px;
@@ -288,17 +298,20 @@ hr{
     overflow: scroll;
 }
 
+.presentation-text{
+    text-align: justify;
+}
 .presentation header h1{
-    font-size: 4rem;
+    font-size: 3rem;
     color: black;
     margin-left: 10% ;
+    margin-right: 10%;
     margin-bottom: 3%;
-}
+} 
     .circle{
         display: flex;
         flex-direction: column;
         justify-content: center;
-       
         margin-top: 5%;
     }
     
@@ -342,8 +355,7 @@ hr{
 
 .avis{
     width: 60%;
-    height: 17rem;
-    
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15%;
@@ -397,7 +409,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 10%;
 }
 
 .star{
@@ -406,27 +418,26 @@ hr{
 }
 .stars{
     margin-left: 20%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     margin-right: 15%;
 }
 
-.stars p{
-    font-size: 50px;
-    margin-left: 20%;
-}
 
-.note{
-    font-size: 30px;
-    margin-left: 0%;
-}
+
 .totalCards{
     display: block;
     margin-left: 20%;
 }
 
-.h3 {
-    text-align: center;
+.firstComment h3 {
+   margin-right: 10% ;
 }
 
+.avisNotes h3{
+    margin-right: 30%;
+}
+.team{
+    margin-right: 40%;
+}
 }
 

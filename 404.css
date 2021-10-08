@@ -21,7 +21,7 @@ footer {
     padding-top: 5rem;
 }
 
-.page404 h1, p, img, a{
+.page404 h1, .page404 p, .page404 img, .page404 a{
     display: flex;
     justify-content: center;
 }

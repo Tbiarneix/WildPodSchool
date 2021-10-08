@@ -14,7 +14,7 @@ section {
     background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(tutorial-assets/PodRacerPilot.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;   
+    background-size: 100%; 
 }
 
 .head-image h1 {
@@ -56,7 +56,7 @@ section {
 .tutorial-card-first-part {
     min-width: 40%;
     max-width: 40%;
-    height: 10rem;
+    height: 100%;
 }
 
 .tutorial-card-second-part {
@@ -90,6 +90,20 @@ section {
     margin-bottom: 3rem;
 }
 
+.button {
+    background-image: url("assets/fleche2.png");
+    width: 10%;
+    position: fixed;
+  bottom: 170px;
+  right: 0px;
+}
+
+.button img {
+    width: 100%;
+}
+
+html { scroll-behavior: smooth; }
+
 @media screen and (max-width: 1024px) {
     .tutorial-card {
         width: 100%;
@@ -101,6 +115,8 @@ section {
         height: 20rem;
     }
 }
+
+
 
 @media screen and (max-width: 768px) {
     .head-image {
@@ -119,10 +135,8 @@ section {
         margin: 0px;
     }
     
-
     .head-division {
         margin-top: 5rem;
     }
     }
-
-
+    

@@ -16,8 +16,10 @@ a:hover {
     color: white;
 }
 
-h2, h3 {
+h2, h3, h4 {
+
   font-family: 'Teko', sans-serif;
+
 }
 
 h2, h3 {
@@ -39,14 +41,22 @@ h2 {
 h3 {
     font-size: 24px;
 }
+h4 {
+    color: #fff;
+    font-size: x-large;
+}
 
 p {
     color:rgb(31, 29, 29);
     font-family: 'Red Hat Display', sans-serif;
     font-size: medium;
 }
+    /*style générateur de quotes*/
 
-
+.generatorofquotes {
+    margin: auto;
+    text-align: center;
+}
 
 /* HEADER SECTION DESKTOP */
 
@@ -57,6 +67,7 @@ p {
 .menuDesktop {
     display: flex;
     width: 100%;
+
 }
 
 .mainhead {

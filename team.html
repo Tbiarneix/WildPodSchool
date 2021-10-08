@@ -13,45 +13,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
 </head>
-<header class="mainhead">
-    <nav>
-        <div class="logo-mobile">
-            <a href="index.html"><img src="assets/Logo WPS mobile version.png" alt="Logo" width="50%"
-                    height="50%" /></a>
-        </div>
-        <div class="menuDesktop">
+<body>
+    <header class="mainhead">
+        <nav>
             <div class="logo">
-                <a href="index.html"><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="90%" /></a>
+                <a href="index.html"><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="50%" /></a>
             </div>
-            <ul class="menu">
+            <ul>
                 <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
                 <li><a class="active" href="portfolio.html">Galerie</a></li>
                 <li><a class="active" href="event.html">Évènements</a></li>
                 <li><a class="active" href="contact.html">Contact</a></li>
             </ul>
-        </div>
-
-
-        <div class="menuPortable">
-            <div class="menuMobileContainer">
-                <div class="hamburger">
-                    <div class="bar"></div>
-                </div>
-            </div>
-        </div>
-        <ul class="menu-mobile">
-            <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
-            <li><a class="active" href="portfolio.html">Galerie</a></li>
-            <li><a class="active" href="event.html">Évènements</a></li>
-            <li><a class="active" href="contact.html">Contact</a></li>
-        </ul>
-        </div>
-
-    </nav>
-</header>
-
-<body>
-    <div class="head-image">
+        </nav>
+    </header>
+  <audio id="lightsaber" preload="auto">
+    <source src="assets/lightsabersound.mp3" type="audio/mpeg">
+</audio>
+    <div class="head-image-team">
         <h1>L'équipe</h1>
         <img src="tutorial-assets/star-wars-2908144_1280.png" alt="Laser saber" />
     </div>
@@ -65,77 +44,97 @@
             </p>
         </div>
     </section>
-    <section class="tutorial-summary">
-        <div class="tutorial-card">
-            <div class="tutorial-card-first-part">
-                <img src="tutorial-assets/construction-set-ge4ebaa98f_1920.jpg" alt="Constructeur légo de podracer" />
-            </div>
-            <div class="tutorial-card-second-part">
-                <h2>Construire son Pod</h2>
-                <p> Découvrez quelques rudiments de mécanique quantique et fusionnelle. </p>
-                <a href="tutorial.html"><button>Lire +</button> </a>
-            </div>
-        </div>
-        <div class="tutorial-card">
-            <div class="tutorial-card-first-part">
-                <img src="tutorial-assets/Pod1.jpg" alt="Pod Racer Illustration" />
-            </div>
-            <div class="tutorial-card-second-part">
-                <h2>Réviser son moteur de fusion</h2>
-                <p> Construire son pod c'est bien mais savoir entretenir ses moteurs de fusion, c'est tout aussi
-                    imporatnt.</p>
-                <a href="tutorial.html"><button>Lire +</button> </a>
-            </div>
-        </div>
-        <div class="tutorial-card">
-            <div class="tutorial-card-first-part">
-                <img src="tutorial-assets/Watto.jpg" alt="Watto" />
-            </div>
-            <div class="tutorial-card-second-part">
-                <h2>Prendre garde aux arnaques de Watto</h2>
-                <p> Si vous vous lancez dans la course de pod, vous rencontrerez Watto. Prenez garde à lui.</p>
-                <a href="tutorial.html"><button>Lire +</button> </a>
-            </div>
-        </div>
-        <div class="tutorial-card">
-            <div class="tutorial-card-first-part">
-                <img src="tutorial-assets/Course de Pod.jpg" alt="Pod Race Illustration" />
-            </div>
-            <div class="tutorial-card-second-part">
-                <h2>Repérer le parcours</h2>
-                <p> Une course de pod se prépare autant sur la machine que dans la tête. Mieux vous serez préparés, plus
-                    de chances vous aurez d'aller au bout</p>
-                <a href="tutorial.html"><button>Lire +</button> </a>
-            </div>
-        </div>
-        <div class="tutorial-card">
-            <div class="tutorial-card-first-part">
-                <img src="tutorial-assets/PodAccident.gif" alt="Podracer accident" />
-            </div>
-            <div class="tutorial-card-second-part">
-                <h2>Eviter les accidents</h2>
-                <p> Lors d'une course, vous ne serez pas seuls sur la piste. Il est primordial de voir quelques atuces
-                    afin d'éviter de vous crasher (et de mourir éventuellement). </p>
-                <a href="tutorial.html"><button>Lire +</button> </a>
-            </div>
-        </div>
-        <div class="tutorial-card">
-            <div class="tutorial-card-first-part">
-                <img src="tutorial-assets/syndicat-d-ivax-19959.jpg" alt="Pod Racer Illustration" />
-            </div>
-            <div class="tutorial-card-second-part">
-                <h2>Penser à s'inscrie auprès du syndicat d'Ivax</h2>
-                <p>Elementaire, mais pour pouvoir participer aux course pensez à vous inscrire auprès de ceux qui les
-                    gèrent.</p>
-                <a href="tutorial.html"><button>Lire +</button></a>
-            </div>
+
+    <section>
+        <div class="carousel">
+            <scroll-container class="carousel-items">
+                <scroll-page class="carousel-item" id="formator1">
+                    <div class="team-cards">
+                        <div class="team-card-first-part">
+                            <img src="assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg"
+                                alt="Constructeur légo de podracer" />
+                        </div>
+                        <div class="team-card-second-part">
+                            <h2>Kachiri</h2>
+                            <a><button class="open-modal">Découvrir</button></a>
+                        </div>
+                    </div>
+                </scroll-page>
+                <scroll-page class="carousel-item" id="formator2">
+                    <div class="team-cards">
+                        <div class="team-card-first-part">
+                            <img src="assetsIndex/pexels-brett-sayles-1437218.jpg"
+                                alt="Constructeur légo de podracer" />
+                        </div>
+                        <div class="team-card-second-part">
+                            <h2>Emma</h2>
+                            <a><button class="open-modal">Découvrir</button></a>
+                        </div>
+                    </div>
+                </scroll-page>
+                <scroll-page class="carousel-item" id="formator3">
+                    <div class="team-cards">
+                        <div class="team-card-first-part">
+                            <img src="assetsIndex/greedo.jpg" alt="Constructeur légo de podracer" />
+                        </div>
+                        <div class="team-card-second-part">
+                            <h2>Malik</h2>
+                            <a><button class="open-modal">Découvrir</button></a>
+                        </div>
+                    </div>
+                </scroll-page>
+                <scroll-page class="carousel-item" id="formator4">
+                    <div class="team-cards">
+                        <div class="team-card-first-part">
+                            <img src="assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg"
+                                alt="Constructeur légo de podracer" />
+                        </div>
+                        <div class="team-card-second-part">
+                            <h2>Cristi</h2>
+                            <a><button class="open-modal">Découvrir</button></a>
+                        </div>
+                    </div>
+                </scroll-page>
+                <scroll-page class="carousel-item" id="formator5">
+                    <div class="team-cards">
+                        <div class="team-card-first-part">
+                            <img src="assetsIndex/chubi.jpg" alt="Constructeur légo de podracer" />
+                        </div>
+                        <div class="team-card-second-part">
+                            <h2>Thomas</h2>
+                            <a><button class="open-modal">Découvrir</button></a>
+                        </div>
+                    </div>
+                </scroll-page>
+            </scroll-container>
+            <nav class="formators-nav">
+                <div class="navigation-arrow"> <a id="prev-arrow" href="#formator1"><img class="nav-arrows" src="assetsteam/arrow-left.png"/></a> </div>
+                <div class="navigation-point">
+                    <a href="#formator1">•</a>
+                    <a href="#formator2">•</a>
+                    <a href="#formator3">•</a>
+                    <a href="#formator4">•</a>
+                    <a href="#formator5">•</a>
+                </div>
+                <div class="navigation-arrow"> <a id="next-arrow" href="#formator5"><img class="nav-arrows" src="assetsteam/arrow-right.png"/></a> </div>
+            </nav>
         </div>
     </section>
     <section>
-        <div class="discover-more-button">
-            <a href="https://www.formationcoaching.info/les-arnaques-dans-le-domaine-du-coaching-professionnel/"
-                target="_blank"><button>Voir plus de tutoriels</button></a>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2>Présentation</h2>
+                <p>Ce sont toutes et tous des instructeurs de la première heure ! Ils peuvent démonter un moteur de
+                    Pod en 1h30. Bon par contre parfois, quand ils les remontent ça explose, mais
+                    franchement, qui s'en ferait pour si peu ?
+                    En plus ils on tous leur brevet de pilote. Enfin certain l'ont peut-être volé à un autre pilote
+                    après une soirée bien arrosée. N'empêche que ça reste la seule école de formation de PodRacer de
+                    la Galaxie. Personne d'autre ne voudra prendre votre argent pour vous apprendre les rudiments.
+                    Autant faire ça avec nous.</p>
+                <button id="close-modal">Fermer</button>
+            </div>
         </div>
+
     </section>
 
     <footer>
@@ -167,12 +166,17 @@
 
         </div>
 
+        <div class= "generatorofquotes">
+            <h4 class="generator"> </h4>
+        </div>
         <div class="copyright"><small>&#9400;</small> 2021 - Designed by the Wild Pod School team. All Rights reserved.
         </div>
     </footer>
+
+    <script src="team.js"></script>
+    <script src="generator.js"></script>
     <script src="index.js"></script>
 </body>
 
 </html>
 
-</html>

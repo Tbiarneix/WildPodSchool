@@ -59,6 +59,35 @@ p {
 
 /* HEADER SECTION DESKTOP */
 
+@keyframes slide {
+    0% {
+        transform: translate(-200px, 26px);
+    }
+
+
+
+    50% {
+        transform: translate(200px, 26px) rotate(180deg);
+    
+    }
+
+   
+
+    100% {
+        transform: translate(-200px, 26px) rotate(360deg);
+    };
+    }
+
+
+ .imagefooter {
+     display: flex;
+    align-items:center;
+    animation-name:slide;
+
+	animation-duration:4s;
+    animation-iteration-count: infinite;
+ }
+
 .menuPortable {
     display: none; 
 }
@@ -141,6 +170,9 @@ nav ul {
   /* Mediaquery Header */
 
 @media screen and (max-width: 765px) {
+    .imagefooter {
+        animation: none;
+    }
     .logo {
         display: none;
     }
@@ -272,10 +304,9 @@ nav ul {
      padding-top: 10%;
  }
 
- .imagefooter {
-     display: flex;
-    align-items:center;
- }
+
+
+ 
 
  .rs {
     color: green;

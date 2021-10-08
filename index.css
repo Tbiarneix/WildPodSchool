@@ -285,6 +285,7 @@ hr{
     padding-right: auto;
     border-radius: 20px;
     border: solid;
+    overflow: scroll;
 }
 
 .presentation header h1{
@@ -292,42 +293,47 @@ hr{
     color: black;
     margin-left: 10% ;
     margin-bottom: 3%;
-   
 }
-
-.circle1 {
-    margin: 10px;
-    width: 100px;
-    height: 250px;
-    text-align: center;
-    color: black;
-    background-color: whitesmoke;
-    font-family: "teko",sans-serif;
-    font-size: 25px;
-}
-
-.circle2{
-    margin: 10px;
-    width: 100px;
-    height: 250px;
-    text-align: center;
-    color: black;
-    background-color: whitesmoke;
-    font-family: "teko",sans-serif;
-    font-size: 25px;
-}
-
-.circle3{
-    margin: 10px;
-    width: 100px;
-    align-items: center;
-    height: 250px;
-    text-align: center;
-    color: black;
-    background-color: whitesmoke;
-    font-family: "teko",sans-serif;
-    font-size: 25px;
-}
+    .circle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        margin-top: 5%;
+    }
+    
+    .circle1 {
+        
+        margin: 10px;
+        width: 100%;
+        text-align: center;
+        color: black;
+        background-color: whitesmoke;
+        font-family: "teko",sans-serif;
+        font-size: 25px;
+    }
+    
+    .circle2{
+        margin: 10px;
+        width: 100%;
+        text-align: center;
+        color: black;
+        background-color: whitesmoke;
+        font-family: "teko",sans-serif;
+        font-size: 25px;
+    }
+    
+    .circle3{
+        margin: 10px;
+    width: 100%;
+        align-items: center;
+        text-align: center;
+        color: black;
+        background-color: whitesmoke;
+        font-family: "teko",sans-serif;
+        font-size: 25px;
+    }
+    
 
 .heroHeader h1{
     align-items: center;
@@ -418,6 +424,9 @@ hr{
     margin-left: 20%;
 }
 
+.h3 {
+    text-align: center;
+}
 
 }
 

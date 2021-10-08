@@ -126,8 +126,8 @@ nav ul {
     transition: width 0.3s;
 }
 
-
 /* POD ANIMATION FOOTER */
+
 @keyframes slide {
     0% {
         transform: translate(-200px, 26px);
@@ -328,5 +328,15 @@ button:hover {
     }
     .arborescence {
         display: none;
+    }
+
+    .imagefooter {
+        animation: none;
+    }
+
+    .generatorofquotes {
+        margin: auto;
+        text-align: center;
+        width: 80%;
     }
 }

@@ -126,8 +126,8 @@ nav ul {
     transition: width 0.3s;
 }
 
-
 /* POD ANIMATION FOOTER */
+
 @keyframes slide {
     0% {
         transform: translate(-200px, 26px);

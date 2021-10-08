@@ -12,19 +12,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
-    
 </head>
+
 <header class="mainhead">
     <nav>
-        <div class="logo">
-            <a href="index.html"><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="50%" /></a>
+        <div class="menuDesktop">
+            <div class="logo">
+                <a href="index.html"><img src="assets/Logo WPS.png" alt="Logo" width="30%" height="90%" /></a>
+            </div>
+            <ul class="menu">
+                <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
+                <li><a class="active" href="portfolio.html">Galerie</a></li>
+                <li><a class="active" href="event.html">Évènements</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
         </div>
-        <ul>
+
+        <div class="menuPortable">
+            <div class="logo-mobile">
+                <a href="index.html"><img src="assets/Logo WPS mobile version.png" alt="Logo" width="50%"
+                        height="50%" /></a>
+            </div>
+            <div class="menuMobileContainer">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+        <ul class="menu-mobile">
             <li><a class="active" href="tutorialsummary.html">Tutoriels</a></li>
             <li><a class="active" href="portfolio.html">Galerie</a></li>
             <li><a class="active" href="event.html">Évènements</a></li>
             <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
+        </div>
     </nav>
 </header>
 
@@ -32,47 +53,109 @@
     <audio id="lightsaber" preload="auto">
         <source src="assets/lightsabersound.mp3" type="audio/mpeg">
     </audio>
-
     <section>
         <div class="tutorial">
             <div class="tutorial-container">
                 <div style="float: left;"> <img src="tutorial-assets/Pod1.jpg" /></div>
                 <h2>Réviser son moteur de fusion</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum."</p>
-
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                    modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                    veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                    commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                    modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                    veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                    commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                    modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                    veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                    commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                <p> L’énergie libre est une fonction mathématique quantifiant le travail fourni par un système
+                    thermodynamique fermé lors d’une transformation réversible à température constante. C’est en tout
+                    cas la définition que l’on trouvera dans un manuel de physique… Mais sur la Toile, le terme énergie
+                    libre renvoie le plus souvent à une source d’énergie nouvelle qui serait largement ignorée par la
+                    communauté scientifique mais dont dépendrait l’avenir de l’humanité dans le contexte actuel de crise
+                    énergétique et environnementale. Réalité ou mythe moderne ?</p>
+                <h2> Des hommes entêtés… </h2>
+                <p>
+                    Il semblerait que cette énergie libre foisonne autour de nous, et que « les preuves de cette source
+                    d’énergie libre sont démontrées par des dizaines, voire des centaines de personnes » [1]. Elle
+                    aurait le bon goût d’être « disponible gratuitement », occuperait « tout le “vide” qui nous entoure
+                    » et pour la mettre en œuvre, nul besoin d’être « ingénieur ou docteur en physique » [2] puisqu’il
+                    vous suffit de potasser l’un des ouvrages disponibles pour concevoir une machine qui saura
+                    transformer « quelque chose que l’on ne sait pas détecter en quelque chose d’utilisable » [3]… Mais
+                    comme l’énonçait Aristote, « la définition fait connaître ce qu’est la chose ». Alors, quèsaco ?
+                </p>
+                <p>
+                    On apprend, en naviguant sur plusieurs sites web qui reproduisent assez inlassablement le même
+                    discours, qu’elle serait « une énergie électromagnétique dont la moyenne est nulle et semble être
+                    neutre du point de vue électrique » et dont l’origine « est supposée être liée à la présence de
+                    champs de paires de particules et d’antiparticules (photons), occupant le vide […] créant entre
+                    elles une tension, donc une énergie qui se transforme en une onde qui se propage dans l’espace » 1
+                    [4]. La plupart des physiciens continueraientde nier son existence « pendant que l’évidence leur
+                    montre chaque jour la réalité, par le jeu des mouvements planétaires, lunaires, stellaires et des
+                    atomes et électrons » [1]tandis que d’autres, « des chercheurs courageux et désintéressés sont en
+                    train de faire advenir en ce moment même » le « miracle » de l’énergie libre [5]. Mais la
+                    technologie mise au point par ces courageux chercheurs et qui permettrait de « générer de
+                    l’électricité absolument gratuite et ne plus payer un seul centime aux fournisseurs d’énergie »
+                    serait « étouffée et réprimée par les grandes corporations » [2] qui « tyrannisent les chercheurs »
+                    menant des recherches sur l’énergie libre [6]... Un exemple parmi d’autres : Bruce DePalma, un
+                    ingénieur électricien qui un jour « se mit à la recherche de son âme », « s’initia à la méditation »
+                    et entreprit de se retirer dans une ferme pour mener des recherches sur les objets tournants : il
+                    aurait ainsi inventé un générateur utilisant des aimants en rotation pour extraire l’énergie de
+                    l’espace mais n’a jamais osé pousser son concept au bout, de peur qu’on lui fasse « sauter la
+                    cervelle » [7]. Malgré cette « tyrannie », il reste heureusement possible (mais pour combien de
+                    temps encore, pourrait-on dire ?) de consulter sur le Net de nombreuses vidéos ou descriptifs de
+                    machines à énergie libre qui sont présentés comme autant de preuves… invérifiables. Comme ce «
+                    générateur d’énergie à aimant » révolutionnaire, dénommé VTA pour Vacuum Triode Amplifier, mis au
+                    point dans les années 80 par un dénommé Floyd Sweet et qui « produisait beaucoup plus d’énergie
+                    qu’il n’en consommait »... Mais son inventeur « n’a jamais soumis le VTA à des tests indépendants »
+                    et des adeptes de l’énergie libre considèrent aujourd’hui « que les tentatives de reproduire les
+                    résultats […] peuvent se heurter à de gros problèmes, parce qu’on ne trouve plus le genre d’aimant
+                    utilisé à l’époque » [7]. L’avenir du monde tient décidément à peu de chose…
+                </p>
+                <p>
+                    À voir ces vidéos et lire tous les espoirs suscités par la perspective de délivrer l’humanité « des
+                    lobbys maléfiques contrôlant ce monde », de rétablir la vérité scientifique face à des universités
+                    qui « lavent le cerveau des étudiants » [8] et de garantir un avenir propre à la planète [9], on
+                    pourrait être tenté d’y croire…
+                </p>
+                <h2>…mais des lois têtues</h2>
+                <p>
+                    Hélas ! les lois de la nature sont mal faites. Au XVIIIe siècle, Antoine Laurent de Lavoisier, en
+                    précurseur de la chimie moderne et reprenant une thèse proposée jadis par Anaxagore, qui vécut 500
+                    ans avant J-C, énonçait une règle devenue célèbre : « dans la nature, rien ne se perd, rien ne se
+                    crée, tout se transforme ». Cette maxime sera formalisée au cours du XIXe siècle par les principes 2
+                    fondamentaux de la thermodynamique, notamment le premier principe 3, ou principe de conservation de
+                    l’énergie. Le recours systématique des « sceptiques » à ce premier principe de la thermodynamique
+                    pour tuer dans l’œuf l’idée même d’une machine à énergie libre est vivement dénoncé par ses
+                    partisans qui affirment qu’une telle machine « ne viole pas le sacro-saint principe de conservation
+                    de l’énergie » car elle ne fait que « pomper un peu […] l’énergie du vide » [10] dont serait rempli
+                    l’Univers… Certains citent le cas des aimants suspendus en lévitation magnétique se demandant «
+                    quelle énergie inépuisable vainc ici la gravitation ? » [11] et en supposant qu’elle est extraite du
+                    vide. Ce type de raisonnement découle en fait d’une mauvaise compréhension du concept même d’énergie
+                    qui est souvent imaginée comme un fluide échangeable présent en nous et autour de nous. Mais
+                    l’énergie est une propriété inhérente de la matière, et n’a pas d’existence propre en dehors d’elle.
+                    Cette identité entre matière et énergie est un concept fondamental sous-tendu par la célèbre et
+                    pourtant souvent mal comprise équation 4 produite par Albert Einstein : E = mc2. L’énergie est en
+                    outre une notion toute relative : une voiture dans son garage, immobile par rapport au référentiel
+                    terrestre, ne vous amènera nulle part ni ne percutera personne car son énergie cinétique dans ce
+                    référentiel est nulle. Pourtant, son énergie cinétique est immense dans le référentiel
+                    héliocentrique puisque la Terre l’entraîne avec elle dans son périple autour du Soleil à 30 km/s… On
+                    ne peut donc isoler un paquet d’énergie pure, et chercher à se faire une représentation de l’énergie
+                    par le biais de l’imagination ou de l’intuition n’est qu’une impasse génératrice de paradoxes
+                    propices aux interprétations mystiques : comme le rappelle le professeur Sadri Hassani 5, si en
+                    physique « il y a des paradoxes, c’est simplement parce que nous essayons de comprendre un phénomène
+                    physique par l’intermédiaire de notre intuition limitée, incomplète et souvent fausse 6 » [12]. Nous
+                    devrions nous contenter de considérer l’énergie comme elle nous apparaît dans les expériences de
+                    physique expérimentale, c’est-à-dire comme une grandeur quantifiant les changements d’organisation
+                    de la matière qui se transforme, s’échange et se meut sous l’action des quatre forces de la nature
+                    (gravitationnelle, électromagnétique, nucléaire forte et nucléaire faible) dans un référentiel
+                    donné. Se risquant à une comparaison anthropocentrique, on pourrait dire que si les atomes étaient
+                    monnaies, alors l’énergie serait taux de change…
+                </p>
+                <h2>Une perte de temps et… d’énergie</h2>
+                <p>On ne peut pas créer d’énergie à partir de rien, cela reviendrait à créer de la matière… Et croire
+                    que l’industrie de l’énergie étouffe des avancées dans le domaine, c’est faire peu de cas des
+                    industries du matériel électrique, notamment portatif, qui rêveraient de pouvoir mettre au point des
+                    outils sans batteries, donc moins lourds et moins coûteux à la production, et qui constitueraient
+                    des innovations de rupture pour le grand public qui serait sans doute prêt à les acheter plus chers…
+                    Les travaux pour créer de l’énergie du vide ou pour violer le principe de conservation de l’énergie
+                    sont donc effectués en pure perte. La seule chose que nous apportent les efforts de tous ces gens,
+                    persuadés de pouvoir diffuser l’énergie à foison comme Jésus multipliait les pains, c’est la
+                    confirmation du penchant immémorial de l’homme pour la profusion et la gratuité, rien ne
+                    différenciant le mythe moderne de l’énergie libre de celui, ancien, de la lampe éternelle [13]…</p>
+                <br>
+                <p class="source">Source : <a
+                        href="https://www.afis.org/Energie-libre-quand-les-esprits-se-dechainent">Afis Science</a></p>
             </div>
 
             <div class="more-tutorials-column">
@@ -81,23 +164,23 @@
                 </div>
                 <div class="more-tutorials-column-content">
                     <div class="other-tutorial">
-                        <h3>Construire son Pod</h3>
                         <img src="tutorial-assets/construction-set-ge4ebaa98f_1920.jpg" />
+                        <h3>Construire son Pod</h3>
                         <p> Découvrez quelques rudiments de mécanique quantique et fusionnelle. </p>
                         <a href="tutorial.html"><button>En lire plus</button></a>
                     </div>
                     <hr>
                     <div class="other-tutorial">
-                        <h3>Eviter les accidents</h3>
                         <img src="tutorial-assets/PodAccident.gif" />
+                        <h3>Eviter les accidents</h3>
                         <p> Lors d'une course, vous ne serez pas seuls sur la piste. Il est primordial de voir quelques
                             atuces afin d'éviter de vous crasher (et de mourir éventuellement). </p>
-                            <a href="tutorial.html"><button>En lire plus</button></a>
+                        <a href="tutorial.html"><button>En lire plus</button></a>
                     </div>
                     <hr>
                     <div class="other-tutorial">
-                        <h3>Penser à s'inscrie auprès du syndicat d'Ivax</h3>
                         <img src="tutorial-assets/syndicat-d-ivax-19959.jpg" />
+                        <h3>Penser à s'inscrie auprès du syndicat d'Ivax</h3>
                         <p> Elementaire, mais pour pouvoir participer aux course pensez à vous inscrire auprès de ceux
                             qui les gèrent.</p>
                         <a href="tutorial.html"><button>En lire plus</button></a>
@@ -124,6 +207,7 @@
                 <img src="assets/PlanPod.jpg" alt="imagefooter" width="140px" height="120px" />
             </div>
             <div class="rs">
+
                 <br /><a href="https://fr-fr.facebook.com/StarWars.Parodie.Poesie/"><img id="facebook" src="assets/facebook.png" alt="facebook" width="50px" height="50px" /></a><br />
                 <br /><a href="https://twitter.com/StarWarsFR"><img id="instagram" src="assets/twitter.png" alt="twitter" width="50px" height="50px" /></a><br />
                 <br />
@@ -131,7 +215,7 @@
                         width="50px" height="50px" /></a><br />
             </div>
         </div>
-        <div class= "generatorofquotes">
+        <div class="generatorofquotes">
             <h4 class="generator"> </h4>
         </div>
         <div class="copyright"><small>&#9400;</small> 2021 - Designed by the Wild Pod School team. All Rights reserved.

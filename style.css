@@ -1,31 +1,23 @@
-/* GLOBAL CSS */
-
+/*GLOBAL CSS */
 body {
     background: whitesmoke;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
 }
-
 a {
     text-decoration: none;
     color: white;
    }
-
 a:hover {
     color: white;
 }
-
 h2, h3, h4 {
-
   font-family: 'Teko', sans-serif;
-
 }
-
 h2, h3 {
     color: #000000;
 }
-
 h1 {
     font-family: 'Teko', sans-serif;
     color: #fff;
@@ -33,11 +25,9 @@ h1 {
     margin-bottom: -2rem;
     text-transform: capitalize;
 }
-
 h2 {
     font-size: 30px;
 }
-
 h3 {
     font-size: 24px;
 }
@@ -45,60 +35,24 @@ h4 {
     color: #fff;
     font-size: x-large;
 }
-
 p {
     color:rgb(31, 29, 29);
     font-family: 'Red Hat Display', sans-serif;
     font-size: medium;
 }
     /*style générateur de quotes*/
-
 .generatorofquotes {
     margin: auto;
     text-align: center;
 }
-
 /* HEADER SECTION DESKTOP */
-
-@keyframes slide {
-    0% {
-        transform: translate(-200px, 26px);
-    }
-
-
-
-    50% {
-        transform: translate(200px, 26px) rotate(180deg);
-    
-    }
-
-   
-
-    100% {
-        transform: translate(-200px, 26px) rotate(360deg);
-    };
-    }
-
-
- .imagefooter {
-     display: flex;
-    align-items:center;
-    animation-name:slide;
-
-	animation-duration:4s;
-    animation-iteration-count: infinite;
- }
-
 .menuPortable {
-    display: none; 
+    display: none;
 }
-
 .menuDesktop {
     display: flex;
     width: 100%;
-
 }
-
 .mainhead {
     color: white;
     font-family: 'Teko', sans-serif;
@@ -110,12 +64,10 @@ p {
     top: 0;
     z-index: 1000;
 }
-
 .active {
     color : white;
     text-decoration: none;
 }
-
 nav {
     background: black;
     min-height: 8vh;
@@ -123,7 +75,6 @@ nav {
     align-items: center;
     padding: 0.2rem;
 }
-
 nav ul {
     display: flex;
     flex: 1 1 40rem;
@@ -131,15 +82,12 @@ nav ul {
     align-items: center;
     list-style: none;
 }
-
 .logo {
     flex: 1 1 40rem;
 }
-
 .menu-mobile {
    display: none;
 }
-
 .active::after {
     content: "";
     display: block;
@@ -158,35 +106,25 @@ nav ul {
     0 0 142px rgb(166, 228, 194),
     0 0 151px rgb(221, 253, 232);
   }
-  
   .active:hover::after {
     width: 100%;
     transition: width 0.3s;
   }
-
   /* Mediaquery Header */
-
 @media screen and (max-width: 765px) {
-    .imagefooter {
-        animation: none;
-    }
-    .logo {
+    .menuDesktop {
         display: none;
     }
-    
     .menuPortable {
         display: flex;
     }
-
     .logo-mobile {
         align-self: center;
     }
-
     .menuMobileContainer {
         align-self: center;
         margin-left: 400px;
     }
-
     .hamburger {
         visibility: visible;
         position: relative;
@@ -199,7 +137,6 @@ nav ul {
         outline: none;
         border: none;
     }
-
     .hamburger .bar, .hamburger::after, .hamburger::before {
     visibility: visible;
     content: '';
@@ -210,18 +147,15 @@ nav ul {
     transition: 0.4s;
     background-color: green;
     }
-
     .hamburger.is-active::before {
         transform: rotate(-45deg) translate(-8px, 6px);
     }
-
     .hamburger.is-active::after {
         transform: rotate(45deg) translate(-9px, -8px);
     }
     .hamburger.is-active .bar {
         opacity: 0;
     }
-
     .menu-mobile {
         background-color: black;
         position: fixed;
@@ -235,11 +169,9 @@ nav ul {
         padding-top: 120px;
         transition: 0.4s;
     }
-
     .menu-mobile.is-active {
         left: 0;
     }
-
     .menu-mobile ul li a {
         display: block;
         width: 100%;
@@ -250,37 +182,30 @@ nav ul {
         color: white;
         font-weight: bold;
         text-decoration: none;
-        padding: 10%; 
+        padding: 10%;
     }
-
     .menu-mobile li {
         margin-top: 5%;
     }
-
     .active::after {
     visibility: hidden;
     }
-
     .menu-mobile li:hover {
         width: 80%;
         margin-left: 50px;
     }
 }
-
  /*FOOTER SECTION*/
-
  footer {
      background:black;
      margin-top: 5%;
     }
-     
  .copyright {
      text-align: center;
     font-weight: bold;
     color: green;
     font-family: 'Teko', sans-serif;
  }
-
  .arborescence ul li a {
     text-decoration: none;
     color: white;
@@ -289,28 +214,24 @@ nav ul {
     font-size: 16px;
     padding: auto;
  }
-
  .arborescence ul li {
      list-style: none;
  }
-
  .arborescence ul {
      padding-top: 10%;
  }
-
-
-
- 
-
+ .imagefooter {
+     display: flex;
+    align-items:center;
+ }
  .rs {
     color: green;
-    font-weight: bold; 
-    display: flex; 
+    font-weight: bold;
+    display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
  }
-
  .container {
      display: flex;
      flex-direction: row;
@@ -319,7 +240,6 @@ nav ul {
      margin-left: auto;
      margin-right: auto;
  }
-
  button {
     display: inline-block;
     background-color: green;
@@ -337,23 +257,29 @@ nav ul {
     cursor: pointer;
     margin: 5px;
 }
-
 button:hover {
     background-color: rgb(0, 161, 0);
     color: black;
 }
-
 /* MediaQueryFooter */
-
 @media screen and (max-width: 765px) {
-
     .container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .arborescence {
         display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+

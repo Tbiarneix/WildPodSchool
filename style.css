@@ -1,23 +1,29 @@
 /*GLOBAL CSS */
+
 body {
     background: whitesmoke;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
 }
+
 a {
     text-decoration: none;
     color: white;
-   }
+}
+
 a:hover {
     color: white;
 }
+
 h2, h3, h4 {
-  font-family: 'Teko', sans-serif;
+    font-family: 'Teko', sans-serif;
 }
+
 h2, h3 {
     color: #000000;
 }
+
 h1 {
     font-family: 'Teko', sans-serif;
     color: #fff;
@@ -25,34 +31,44 @@ h1 {
     margin-bottom: -2rem;
     text-transform: capitalize;
 }
+
 h2 {
     font-size: 30px;
 }
+
 h3 {
     font-size: 24px;
 }
+
 h4 {
     color: #fff;
     font-size: x-large;
 }
+
 p {
-    color:rgb(31, 29, 29);
+    color: rgb(31, 29, 29);
     font-family: 'Red Hat Display', sans-serif;
     font-size: medium;
 }
-    /*style générateur de quotes*/
+
+/*style générateur de quotes*/
+
 .generatorofquotes {
     margin: auto;
     text-align: center;
 }
+
 /* HEADER SECTION DESKTOP */
+
 .menuPortable {
     display: none;
 }
+
 .menuDesktop {
     display: flex;
     width: 100%;
 }
+
 .mainhead {
     color: white;
     font-family: 'Teko', sans-serif;
@@ -64,10 +80,12 @@ p {
     top: 0;
     z-index: 1000;
 }
+
 .active {
-    color : white;
+    color: white;
     text-decoration: none;
 }
+
 nav {
     background: black;
     min-height: 8vh;
@@ -75,6 +93,7 @@ nav {
     align-items: center;
     padding: 0.2rem;
 }
+
 nav ul {
     display: flex;
     flex: 1 1 40rem;
@@ -82,12 +101,15 @@ nav ul {
     align-items: center;
     list-style: none;
 }
+
 .logo {
     flex: 1 1 40rem;
 }
+
 .menu-mobile {
-   display: none;
+    display: none;
 }
+
 .active::after {
     content: "";
     display: block;
@@ -96,21 +118,38 @@ nav ul {
     background: rgb(203, 245, 203);
     transition: width 0.3s;
     color: #fff;
-    box-shadow:
-    0 0 12px rgba(230, 247, 221, 0.938),
-    0 0 15px rgb(118, 243, 56),
-    0 0 34px rgb(180, 241, 172),
-    0 0 42px rgb(50, 243, 131),
-    0 0 82px rgb(100, 236, 152),
-    0 0 92px rgb(148, 240, 186),
-    0 0 142px rgb(166, 228, 194),
-    0 0 151px rgb(221, 253, 232);
-  }
-  .active:hover::after {
+    box-shadow: 0 0 12px rgba(230, 247, 221, 0.938), 0 0 15px rgb(118, 243, 56), 0 0 34px rgb(180, 241, 172), 0 0 42px rgb(50, 243, 131), 0 0 82px rgb(100, 236, 152), 0 0 92px rgb(148, 240, 186), 0 0 142px rgb(166, 228, 194), 0 0 151px rgb(221, 253, 232);
+}
+
+.active:hover::after {
     width: 100%;
     transition: width 0.3s;
-  }
-  /* Mediaquery Header */
+}
+
+/* POD ANIMATION FOOTER */
+@keyframes slide {
+    0% {
+        transform: translate(-200px, 26px);
+    }
+    50% {
+        transform: translate(200px, 26px) rotate(180deg);
+    }
+    100% {
+        transform: translate(-200px, 26px) rotate(360deg);
+    }
+    ;
+}
+
+.imagefooter {
+    display: flex;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Mediaquery Header */
+
 @media screen and (max-width: 765px) {
     .menuDesktop {
         display: none;
@@ -138,14 +177,14 @@ nav ul {
         border: none;
     }
     .hamburger .bar, .hamburger::after, .hamburger::before {
-    visibility: visible;
-    content: '';
-    display: block;
-    width: 100%;
-    height: 5px;
-    margin: 6px 0px;
-    transition: 0.4s;
-    background-color: green;
+        visibility: visible;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 5px;
+        margin: 6px 0px;
+        transition: 0.4s;
+        background-color: green;
     }
     .hamburger.is-active::before {
         transform: rotate(-45deg) translate(-8px, 6px);
@@ -188,59 +227,69 @@ nav ul {
         margin-top: 5%;
     }
     .active::after {
-    visibility: hidden;
+        visibility: hidden;
     }
     .menu-mobile li:hover {
         width: 80%;
         margin-left: 50px;
     }
 }
- /*FOOTER SECTION*/
- footer {
-     background:black;
-     margin-top: 5%;
-    }
- .copyright {
-     text-align: center;
+
+/*FOOTER SECTION*/
+
+footer {
+    background: black;
+    margin-top: 5%;
+}
+
+.copyright {
+    text-align: center;
     font-weight: bold;
     color: green;
     font-family: 'Teko', sans-serif;
- }
- .arborescence ul li a {
+}
+
+.arborescence ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-family: 'Teko', sans-serif;
     font-size: 16px;
     padding: auto;
- }
- .arborescence ul li {
-     list-style: none;
- }
- .arborescence ul {
-     padding-top: 10%;
- }
- .imagefooter {
-     display: flex;
-    align-items:center;
- }
- .rs {
+}
+
+.arborescence ul li {
+    list-style: none;
+}
+
+.arborescence ul {
+    padding-top: 10%;
+}
+
+.imagefooter {
+    display: flex;
+    align-items: center;
+}
+
+.rs {
     color: green;
     font-weight: bold;
     display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
- }
- .container {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     width: 80%;
-     margin-left: auto;
-     margin-right: auto;
- }
- button {
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
     display: inline-block;
     background-color: green;
     border-radius: 20px;
@@ -257,11 +306,14 @@ nav ul {
     cursor: pointer;
     margin: 5px;
 }
+
 button:hover {
     background-color: rgb(0, 161, 0);
     color: black;
 }
+
 /* MediaQueryFooter */
+
 @media screen and (max-width: 765px) {
     .container {
         display: flex;
@@ -272,14 +324,3 @@ button:hover {
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-

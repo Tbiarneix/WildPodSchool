@@ -29,8 +29,9 @@
 }
 
 .eventpresentationsection {
-    margin-top: 5rem;
+    margin-top: 15rem;
     margin-bottom: 5rem;
+    padding-top: 2.5rem;
     text-align: justify;
     width:80%;
     margin: auto;
@@ -181,9 +182,11 @@ html { scroll-behavior: smooth; }
         margin-left: 2.5rem;
         margin-right: 2.5rem;
         min-width: 35%;
+        justify-content: center;
     }
     .eventtitle {
         height: auto;
+        margin-top: 2.8rem;
     }
 }
    /* .event1, .event2, .event3, .event4, .event5, .event6 {

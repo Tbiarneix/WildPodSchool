@@ -214,6 +214,9 @@ hr{
     justify-content: center;
     align-items: center;
 }
+.firstComment {
+    margin-top: 3rem;
+}
 
 .firstComment img{
     margin-left: 35%;
@@ -230,10 +233,13 @@ hr{
     height: 100%;
     width: 30%;
     border: black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .avisNotes h3{
-    margin-left: 40%;
     font-size: 30px;
 }
 
@@ -253,20 +259,16 @@ hr{
 
 .star{
     font-size: 1.5rem;
-    margin: auto;
 }
-.stars{
-    margin-left: 25%;
-}
+
 
 .stars p{
     font-size: 50px;
-    margin-left: 20%;
+    text-align: center;
 }
 
 .note{
     font-size: 30px;
-    margin-left: 40%;
 }
 
 hr{
@@ -274,9 +276,13 @@ hr{
 }
 
 .team {
-   margin-left: 45%;
-   margin-top: 5%;
-   width: 15rem;
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+}
+
+.team button {
+    width: 15rem;
 }
 
 @media screen and (max-width: 450px) {
@@ -436,8 +442,6 @@ hr{
 .avisNotes h3{
     margin-right: 30%;
 }
-.team{
-    margin-right: 40%;
-}
+.team
 }
 

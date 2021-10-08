@@ -19,6 +19,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .page404 h1, .page404 p, .page404 img, .page404 a{
@@ -37,6 +38,7 @@ footer {
 
 .page404 button {
     width: 12rem;
+
 }
 
 @media screen and (max-width: 1200px) {

@@ -23,6 +23,11 @@
     margin: 0px;
 }
 
+.eventtitle h1 {
+    display: flex;
+    margin:0;
+}
+
 .eventpresentationsection {
     margin-top: 5rem;
     margin-bottom: 5rem;

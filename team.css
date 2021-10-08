@@ -3,7 +3,7 @@ section {
     margin: auto;
 }
 
-.head-image {
+.head-image-team {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,116 +11,176 @@ section {
     width: 100%;
     height: 30rem;
     margin-top: 5rem;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(tutorial-assets/PodRacerPilot.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assetsteam/pexels-renato-danyi-1096925.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;   
+    background-size: 100%;
 }
 
-.head-image h1 {
+.head-image-team h1 {
     display: flex;
-    margin:0;    
+    margin: 0;
 }
 
-.head-image img {
+.head-image-team img {
     max-width: 20%;
     margin: 0px;
 }
 
-.head-division {
+.head-team {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
-.tutorial-summary {
-    display : flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 3rem;
-    margin-bottom: 5rem;
+scroll-container {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
 }
 
-.tutorial-card {
-    display : flex;
-    flex-flow: row;
-    width: 46%;
-    justify-content: flex-start;
-    align-items: flex-start;
+scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+}
+
+.carousel-item {
+    flex: 1 0 30rem;
+    margin-left: 1rem;
+}
+
+.carousel-items {
+    display: flex;
+    padding: 1rem 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.carousel-items::-webkit-scrollbar {
+    display: none;
+}
+
+.team-cards {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(228, 227, 227, 0.61);
     border-radius: 20px;
     gap: 1rem;
     overflow: hidden;
+    transition: all 0.5s ease-in-out;
 }
 
+.team-cards:hover {
+    transform: scale(1.03);
+}
 
-.tutorial-card-first-part {
-    min-width: 40%;
-    max-width: 40%;
+.team-card-first-part {
     height: 100%;
 }
 
-.tutorial-card-second-part {
+.team-card-second-part {
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
-    max-width: 60%;
-    height: 100%;
+    align-items: center;
     padding-right: 1rem;
     margin-bottom: 2rem;
 }
 
-.tutorial-card img {
+.team-cards img {
     max-width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.tutorial-card-second-part a {
-    align-self: flex-end;
-}
-
-.discover-more-button {
+.formators-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
 }
 
-.discover-more-button button {
-    width: 250px;
-    height: 50px;
-    margin-bottom: 3rem;
+.formators-nav a {
+    color: rgb(80, 80, 80);
+    font-size: 32px;
+}
+
+.nav-arrows {
+    width: 4rem;  
+}
+
+.navigation-point {
+    visibility: hidden;
+}
+
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    min-height: 40%;
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
 }
 
 @media screen and (max-width: 1024px) {
-    .tutorial-card {
+    .team-card {
         width: 100%;
-        justify-content:center;
     }
-
-    .head-image {
+    .head-image-team {
         margin-top: 5rem;
         height: 20rem;
+    }
+
+    .navigation-point{
+        visibility: visible;
+    }
+
+    .navigation-arrow{
+        visibility: hidden;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .head-image {
+    .carousel-item {
+        flex: 1 0 20rem;
+    }
+    .head-image-team {
         margin-top: 5rem;
         height: 17rem;
     }
-
-    .head-image h1 {
+    .head-image-team h1 {
         display: flex;
-        margin-bottom: -3rem;   
+        margin-bottom: -3rem;
     }
-    
-    .head-image img {
+    .head-image-team img {
         max-width: 60%;
         margin-top: -3rem;
         margin: 0px;
     }
-    
-
-    .head-division {
+    .head-team {
         margin-top: 5rem;
     }
-    }
+}

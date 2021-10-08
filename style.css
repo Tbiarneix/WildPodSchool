@@ -1,4 +1,5 @@
 /* GLOBAL CSS */
+
 body {
     background: whitesmoke;
     margin-left: 0;
@@ -92,10 +93,6 @@ p {
     display: none; 
 }
 
-.logo-mobile{
-    display: none;
-}
-
 .menuDesktop {
     display: flex;
     width: 100%;
@@ -176,24 +173,18 @@ nav ul {
     .logo {
         display: none;
     }
-
-    .logo-mobile {
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
-    }
-
-    .menu {
-        display: none;
-    }
-
+    
     .menuPortable {
         display: flex;
     }
 
+    .logo-mobile {
+        align-self: center;
+    }
+
     .menuMobileContainer {
-        display: flex;
-        flex-direction: row;
+        align-self: center;
+        margin-left: 400px;
     }
 
     .hamburger {
@@ -201,7 +192,6 @@ nav ul {
         position: relative;
         display: block;
         margin-left: 30%;
-        margin-right: 10px;
         width: 40px;
         height: 35px;
         appearance: none;
@@ -249,9 +239,6 @@ nav ul {
     .menu-mobile.is-active {
         left: 0;
     }
-    .active::after {
-        visibility: hidden;
-    }
 
     .menu-mobile ul li a {
         display: block;
@@ -263,13 +250,20 @@ nav ul {
         color: white;
         font-weight: bold;
         text-decoration: none;
-        padding: 10%;  
+        padding: 10%; 
+    }
+
+    .menu-mobile li {
+        margin-top: 5%;
+    }
+
+    .active::after {
+    visibility: hidden;
     }
 
     .menu-mobile li:hover {
         width: 80%;
-        text-align: center;
-        margin-top: 16px;
+        margin-left: 50px;
     }
 }
 

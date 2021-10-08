@@ -10,7 +10,6 @@
     src: url(assets/Aurebesh.otf);
 }
 
-
 .hero {
     display: flex;
     flex-direction: column;
@@ -28,8 +27,8 @@
 .hero h1 {
     display: flex;
     margin:0;
-    text-align: center;
 }
+
 .hero img {
     max-width: 20%;
     margin: 0px;
@@ -40,7 +39,13 @@
     flex-direction: column;
     margin: 30px 10px 30px 10px;
     gap: 10px;
-    
+}
+
+textarea {
+    padding: 30px;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 6px;
 }
 
 .contactChildrenStar {
@@ -79,8 +84,7 @@ input:not([type="submit"]) {
     border-radius: 25px;
     color: white;
     font-family: 'Teko', sans-serif;
-    margin-top: 0px
-
+    margin-top: 0px;
 }
 
 .formu-star-wars {
@@ -127,59 +131,17 @@ justify-content: center;
     width: 20%;
     display: flex;
     justify-content: center;
-
 }
 
 .label-star-wars {
     display: none;
     font-family: starwarsfont;
-   
 }
-
-
 
 .label-clingon {
     display: none;
     font-family: klingonfont;
-    
 }
-
-
-
-
-
-
-
-/*mediaquery*/
-
-@media screen and (max-width: 480px) {
-textarea {
-    padding: 30px;
-    border: 2px solid green;
-    outline: none;
-    border-radius: 6px;
-
-}
-.container-flex {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.list-container {
-    width: 100%;
-}
-
-button {
-    
-    width: 100%;
-    margin:auto;
-}
-
-}
-
-
-
 
 /*mediaquery*/
 
@@ -201,8 +163,6 @@ button {
         margin-top: -3rem;
         margin: 0px;
     }
-
-    }
         
     .container-flex {
         width: 80%;
@@ -211,9 +171,14 @@ button {
     }
     
     .list-container {
-        width: 80%;
+        width: 100%;
     }
-       
+
+    button { 
+        width: 100%;
+        margin:auto;
+    }
+}  
     
 
  

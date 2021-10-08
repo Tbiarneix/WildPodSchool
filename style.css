@@ -138,7 +138,7 @@ nav ul {
     100% {
         transform: translate(-200px, 26px) rotate(360deg);
     }
-    ;
+    
 }
 
 .imagefooter {
@@ -323,5 +323,15 @@ button:hover {
     }
     .arborescence {
         display: none;
+    }
+
+    .imagefooter {
+        animation: none;
+    }
+
+    .generatorofquotes {
+        margin: auto;
+        text-align: center;
+        width: 80%;
     }
 }

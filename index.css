@@ -3,7 +3,7 @@
     width: 100%;
     height: 100vh;
     font-size: 4rem;
-    background-image: url(/assetsIndex/pexels-aviv-perets-3274903.jpg);
+    background-image: url(assetsIndex/pexels-aviv-perets-3274903.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -135,57 +135,57 @@
   }
 
 .card0 {
-  background: url('/assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg') center center no-repeat;
+  background: url('assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg') center center no-repeat;
   background-size: 300px;
   margin-right: 3%;
 }
     
 .card0:hover {
-    background: url('/assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg')  center no-repeat;
+    background: url('assetsIndex/Ubbla-Mollbro-Star-Wars-TLJ-540x360.jpg')  center no-repeat;
     background-size: 400px;
 }
 
 .card1 {
-  background: url('/assetsIndex/pexels-brett-sayles-1437218.jpg') center center no-repeat;
+  background: url('assetsIndex/pexels-brett-sayles-1437218.jpg') center center no-repeat;
   background-size: 300px;
   margin-right: 3%;
 }
 
 .card1:hover {
-    background: url('/assetsIndex/pexels-brett-sayles-1437218.jpg') center no-repeat;
+    background: url('assetsIndex/pexels-brett-sayles-1437218.jpg') center no-repeat;
     background-size: 400px;
 }
 
 .card2 {
-  background: url('/assetsIndex/greedo.jpg') center center no-repeat;
+  background: url('assetsIndex/greedo.jpg') center center no-repeat;
   background-size: 300px;
   margin-right: 3%;
 }
 
 .card2:hover {
-    background: url('/assetsIndex/greedo.jpg')  center no-repeat;
+    background: url('assetsIndex/greedo.jpg')  center no-repeat;
     background-size: 400px;
 }
 
 .card3 {
-    background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') center center no-repeat;
+    background: url('assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') center center no-repeat;
     background-size: 300px;
     margin-right: 3%;
   }
   
   .card3:hover {
-      background: url('/assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') center no-repeat;
+      background: url('assetsIndex/Jar-Jar-Binks-Star-Wars-540x360.jpg') center no-repeat;
       background-size: 400px;
   }
 
   .card4 {
-    background: url('/assetsIndex//chubi.jpg') center center no-repeat;
+    background: url('assetsIndex//chubi.jpg') center center no-repeat;
     background-size: 300px;
     margin-right: 3%;
   }
   
   .card4:hover {
-      background: url('/assetsIndex/chubi.jpg') center no-repeat;
+      background: url('assetsIndex/chubi.jpg') center no-repeat;
       background-size: 400px;
   }
 
